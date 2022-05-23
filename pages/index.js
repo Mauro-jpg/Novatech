@@ -5,8 +5,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Link from 'next/link';
 
 
-const Navbar = () => <nav class="navbar navbar-expand-lg navbar-light w-100 border-5 border-bottom border-dark" style={{'position': 'fixed', 'backgroundColor' : '#ffffff'}}>
-<a class="navbar-brand logoNavBar" href="#"><img src='/logo.png' style={{width: '100%', 'max-width' : '125px', 'margin-top' : '15px;'}}/></a>
+const Navbar = () => <nav class="navbar navbar-expand-lg navbar-light w-100 border-5 border-bottom border-dark" 
+style={{'position': 'fixed', 'backgroundColor' : 'rgba(255, 255, 255, 0.85)', 'max-height': '100px'}}>
+<a class="navbar-brand logoNavBar p-4" href="#">
+  <img src='/logo.png' style={{width: '100%', 'max-width' : '125px', 'margin-top' : '15px', 'max-height': '80px'}}/>
+</a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
   <span class="navbar-toggler-icon"></span>
 </button>
