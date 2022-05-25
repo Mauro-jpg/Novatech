@@ -5,49 +5,51 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Link from 'next/link';
 
 
-const Navbar = () => <nav class="navbar navbar-expand-lg navbar-light w-100 border-5 border-bottom border-dark" 
-style={{'position': 'fixed', 'backgroundColor' : 'rgba(255, 255, 255, 0.85)', 'max-height': '100px'}}>
-<a class="navbar-brand logoNavBar p-4" href="#">
-  <img src='/logo.png' style={{width: '100%', 'max-width' : '125px', 'margin-top' : '15px', 'max-height': '80px'}}/>
-</a>
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-  <span class="navbar-toggler-icon"></span>
-</button>
-  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <Link href="#Nosotros">
-          <a class="nav-link text-dark">Nosotros</a>
-        </Link>
-      </li>
-      <li class="nav-item">
-        <Link href="#Soporte">
-          <a class="nav-link text-dark">Soporte T.I</a>
-        </Link>
-      </li>
-      <li class="nav-item">
-        <Link href="#Desarrollo">
-          <a class="nav-link text-dark">Desarrollo</a>
-        </Link>
-      </li>
-      <li class="nav-item">
-        <Link href="#Servicios">
-          <a class="nav-link text-dark">Servicios en la Nube</a>
-        </Link>
-      </li>
-      <li class="nav-item">
-        <Link href="#Staff">
-          <a class="nav-link text-dark">Staff Augmentation</a>
-        </Link>
-      </li>
-      <li class="nav-item">
-        <Link href="#Contactanos">
-          <a class="nav-link text-dark">Contactanos</a>
-        </Link>
-      </li>
-    </ul>
-  </div>
-</nav>
+const Navbar = () => <header id="header">
+  <nav className="navbar navbar-expand-lg navbar-light w-100 border-3 border-bottom border-dark">
+  <a className="navbar-brand logoNavBar p-4" href="#">
+    <img src='/logo.png' id="logo" />
+  </a>
+  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
+  aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon"></span>
+  </button>
+    <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul className="navbar-nav ">
+        <li className="nav-item">
+          <Link href="#Nosotros">
+            <a className="nav-link text-dark">Nosotros</a>
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link href="#Soporte">
+            <a className="nav-link text-dark">Soporte T.I</a>
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link href="#Desarrollo">
+            <a className="nav-link text-dark">Desarrollo</a>
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link href="#Servicios">
+            <a className="nav-link text-dark">Servicios en la Nube</a>
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link href="#Staff">
+            <a className="nav-link text-dark">Staff Augmentation</a>
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link href="#Contactanos">
+            <a className="nav-link text-dark">Contactanos</a>
+          </Link>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
 
 export default function Home() {
   return (
@@ -59,26 +61,35 @@ export default function Home() {
       </Head>
       <Navbar />
 
-      <div id="Nosotros" style={{'height':'800px'}}>
-        <h1>Nosotros</h1>
+      <div id="Nosotros" className='backgroundBlocked border-3 border-bottom border-warning' style={{'height':'120vh'}}>
+        <div className='Content'>
+          <div id="NostrosTextBackground">
+            <h1 className="animated fadeInLeft">
+              NUEVAS NECESIDADES,
+              <br /> 
+              NUEVAS TECNOLOGÍAS,
+              <br />
+              NUEVAS SOLUCIONES
+            </h1>  
+          </div>
+        </div>
       </div>
-      <div id="Soporte" style={{'height':'800px'}}>
+
+      <div id="Soporte" className='backgroundBlocked' style={{'height':'120vh'}}>
         <h1>Soporte T.I</h1>
       </div>
-      <div id="Desarrollo" style={{'height':'800px'}}>
+      <div id="Desarrollo"  className='backgroundBlocked' style={{'height':'120vh'}}>
         <h1>Desarrollo</h1>
       </div>
-      <div id="Servicios" style={{'height':'800px'}}>
+      <div id="Servicios"  className='backgroundBlocked' style={{'height':'120vh'}}>
         <h1>Servicios en la Nube</h1>
       </div>
-      <div id="Staff" style={{'height':'800px'}}>
+      <div id="Staff" className='backgroundBlocked' style={{'height':'120vh'}}>
         <h1>Staff Augmentation</h1>
       </div>
       <div id="Contactanos" style={{'height':'800px'}}>
         <h1>Contactanos</h1>
       </div>
-      <footer className={styles.footer}>
-      </footer>
     </div>
   )
 }

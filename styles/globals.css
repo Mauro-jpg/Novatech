@@ -2,13 +2,111 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Montserrat, sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue;
+  scroll-snap-type: y mandatory;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+#header:if([data-scroll='0']){
+  position: absolute;
+}
+
+#header:not([data-scroll='0']){
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  max-height: 96px;
+  margin-top: -96px;
+}
+
+nav {
+  background-color : rgba(255, 255, 255);
+  max-height: 96px;
+}
+
+#logo {
+  max-width : 96px; 
+  margin-top : 15px; 
+  max-height : 80px;
+}
+
+#navbarNav{
+  margin-top: 20px;
+}
+
+
+.backgroundBlocked {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-position: center;
+  scroll-snap-align: start;
+}
+
+#Nosotros{
+  margin-top: 69px;
+  background-image: url('/backHero.jpeg');
+}
+
+.Content {
+  margin: 25px;
+  display: block;
+}
+
+#NostrosTextBackground{
+  background-color: #F89E5C;
+  width: 100%;
+  max-width: 350px;
+  padding: 20px 10px 20px 30px;
+  position: relative;
+  top: 100px;
+}
+
+svg{
+  width:100%;
+}
+
+#NostrosTextBackground h1 {
+  margin: 0;
+  padding: 0;
+  line-height: 60px;
+  color: #FFF;
+  font-size: 45px;
+  font-weight: 200;
+}
+
+#Soporte{
+  background-image: url('/back2.jpeg');
+}
+
+#Desarrollo{
+  background-image: url('/back3.jpeg');
+}
+
+#Servicios{
+  background-image: url('/back5.jpeg');
+}
+
+#Staff{
+  background-image: url('/back4.jpeg');
+}
+
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
 }
 
 * {
