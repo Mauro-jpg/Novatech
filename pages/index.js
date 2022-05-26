@@ -4,7 +4,6 @@ import styles from '../styles/Home.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Link from 'next/link';
 
-
 const Navbar = () => <header id="header">
   <nav className="navbar navbar-expand-lg navbar-light w-100 border-3 border-bottom border-dark">
   <a className="navbar-brand logoNavBar p-4" href="#">
@@ -51,6 +50,7 @@ const Navbar = () => <header id="header">
   </nav>
 </header>
 
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -61,21 +61,27 @@ export default function Home() {
       </Head>
       <Navbar />
 
-      <div id="Nosotros" className='backgroundBlocked border-3 border-bottom border-warning' style={{'height':'120vh'}}>
+      <div id="Nosotros" className='border-3 border-bottom border-warning' style={{'height':'120vh'}}>
         <div className='Content'>
-          <div id="NostrosTextBackground">
-            <h1 className="animated fadeInLeft">
-              NUEVAS NECESIDADES,
-              <br /> 
-              NUEVAS TECNOLOGÍAS,
-              <br />
-              NUEVAS SOLUCIONES
-            </h1>  
-          </div>
+            <video autoPlay muted loop>         
+              <source src="/circuit.mp4" type="video/mp4"/>       
+            </video>
+            <div id="NostrosTextBackground" className='typewriter'>
+              <h1 className="align-middle">
+                NUEVAS NECESIDADES,
+                <br /> 
+                NUEVAS TECNOLOGÍAS,
+                <br />
+                NUEVAS SOLUCIONES
+              </h1>  
+            </div>
+            <div class="content">
+              <h1>Headline</h1>
+            </div>
         </div>
       </div>
 
-      <div id="Soporte" className='backgroundBlocked' style={{'height':'120vh'}}>
+      <div id="Soporte" className='backgroundBlocked' style={{'height':'100vh'}}>
         <h1>Soporte T.I</h1>
       </div>
       <div id="Desarrollo"  className='backgroundBlocked' style={{'height':'120vh'}}>
