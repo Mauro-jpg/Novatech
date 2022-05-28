@@ -3,6 +3,7 @@ import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Link from 'next/link';
+import Typed from 'react-typed';
 
 const Navbar = () => <header id="header">
   <nav className="navbar navbar-expand-lg navbar-light w-100 border-3 border-bottom border-dark">
@@ -64,25 +65,62 @@ export default function Home() {
       <div id="Nosotros" className='border-3 border-bottom border-warning' style={{'height':'120vh'}}>
         <div className='Content'>
             <video autoPlay muted loop>         
-              <source src="/circuit.mp4" type="video/mp4"/>       
+              <source src="/background.mp4" type="video/mp4"/>       
             </video>
-            <div id="NostrosTextBackground" className='typewriter'>
-              <h1 className="align-middle">
-                NUEVAS NECESIDADES,
-                <br /> 
-                NUEVAS TECNOLOGÍAS,
+            <div className='NosotrosContent'>
+              <div className='NosotrosParrafo'>
+                <h1>Nosotros</h1>
                 <br />
-                NUEVAS SOLUCIONES
-              </h1>  
-            </div>
-            <div class="content">
-              <h1>Headline</h1>
+                <Typed
+                    strings={[`Desde 2006, Dimensionamos, Implementamos y Administramos las soluciones tecnológicas que tu empresa necesita.
+                    <br/>
+                    <br/>
+                    Somos tu socio tecnológico, basamos nuestros servicios en la confianza, la buena comunicación y la agilidad para brindarte soluciones flexibles, seguras y de alto 
+                    impacto que te ayuden a lograr tus objetivos.`]}
+                    typeSpeed={32}
+                />
+              </div>
+              <div id="NostrosTextBackground">
+               > NUEVAS 
+                <ul>
+                  <li>NECESIDADES</li>
+                  <li>TECNOLOGÍAS</li>
+                  <li>SOLUCIONES</li>
+                </ul>
+              </div>
             </div>
         </div>
       </div>
 
-      <div id="Soporte" className='backgroundBlocked' style={{'height':'100vh'}}>
-        <h1>Soporte T.I</h1>
+      <div id="Soporte" className='backgroundBlocked' style={{'height':'100vh'}}>        
+          <div className='col50 Content' style={{'width':'50%', 'height' : '100%'}}>
+            <video autoPlay muted loop>         
+                <source src="/it.mp4" type="video/mp4"/>       
+            </video>
+            <div className='SoporteContent'>
+                <div className='SoporteParrafo'>
+                    <div className='SoporteCambia'>
+                    <ul style={{'margin-right':'11px'}}>
+                        <li>Concentrate </li>
+                        <li>nosotros </li>
+                      </ul>
+                        en_tu 
+                      <ul>
+                        <li>negocio</li>
+                        <li>tecnología</li>
+                      </ul>
+                    </div>
+                </div>
+              </div>
+          </div>
+          <div className='col50'>
+            <div style={{'margin-top' : '69px'}}>
+              <h1>Soporte T.I.</h1>
+    Te apoyamos en la administración de tu infraestructura de tecnología. Contarás con un departamento de informática independiente de tu estructura o tamaño. Apoyado con personal técnico capacitado y comprometido para que todo funcione correctamente.
+    Te ofrecemos asesoría en tecnología para asegurarte que tu empresa estará actualizada y aplicando las mejores herramientas y soluciones para tu negocio.
+    Contamos con amplia experiencia en Administracion de Centros de Computos, Administración de Comunicaciones, Servidores, Telefonia IP y Servicio a Usuarios.
+            </div>
+          </div>
       </div>
       <div id="Desarrollo"  className='backgroundBlocked' style={{'height':'120vh'}}>
         <h1>Desarrollo</h1>

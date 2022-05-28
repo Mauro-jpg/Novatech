@@ -57,49 +57,121 @@ nav {
 .Content {
   margin-top: 69px;
   margin: 25px;
-  display: block;
   position: relative;
    display: grid;
    place-items: center;
-   height: 100vh;
+   height: 100%;
    width: 100vw;
    margin: 0 auto;
    background: #ccc;
 }
 
-#NostrosTextBackground{
-  margin-top: 100px;
-  top:0;
-  left:0;
-  width: 80vh;
-  height: 80vh;
+.NosotrosContent {
+  min-width: 500px;
+  width: 43%;
+  height: 60vh;
+  font-size: 60px;
   background-color: #000000;
   opacity: 0.9;
-  padding: 20px 10px 20px 30px;
-  display: block;
+  border-radius: 15px;
+  color: #ffff;
+}
+
+#NostrosTextBackground{
+  display: flex;
+  width: 45vh;
+  height: 38px;
+  font-size: 30px;
+  line-height: 40px;
+
+  position: absolute;
+  top:43%;
+  right:0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  overflow: hidden;
+
   z-index: 1;
-  margin: 25;
+  font-family: monospace;
 }
 
-#NostrosTextBackground h1 {
-  margin: 0;
-  padding: 0;
-  line-height: 60px;
-  color: #FFFF;
-  opacity: 1;
-  font-size: 45px;
-  font-weight: 200;
-  display: block;
-  font-size: 2em;
-  margin-block-start: 0.67em;
-  margin-block-end: 0.67em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
+.NosotrosParrafo {
+  width: 90%;
+  height: 38px;
+  margin: 30px;
+  font-size: 20px;
+  font-family: monospace;
+  display: table;
+  line-height: 40px;
 }
 
-#Soporte{
-  background-image: url('/back2.jpeg');
+#NostrosTextBackground ul {
+  list-style: none;
+  padding-left: 20px;
+  animation: cambiar 7s infinite;
+}
+
+@keyframes cambiar {
+  0%{ margin-top: 0;}
+  20%{ margin-top: 0;}
+  25%{ margin-top: -40px;}
+  50%{ margin-top: -40px;}
+
+  55%{ margin-top: -80px;}
+  80%{ margin-top: -80px;}
+
+  85%{ margin-top: -40px;}
+  95%{ margin-top: -40px;}
+
+  100%{ margin-top: 0px;}
+}
+
+
+.SoporteContent {
+  min-width: 500px;
+  width: 80%;
+  height: 10vh;
+  margin-top: 80%;
+  margin-left: 6%;
+  font-size: 60px;
+  background-color: #000000;
+  opacity: 0.9;
+  border-radius: 15px;
+  color: #ffff;
+}
+
+.SoporteParrafo {
+  font-size: 27px;
+  height: 40px;
+  font-family: monospace;
+  overflow: hidden;
+  
+}
+
+.SoporteCambia{
+  display: flex;
+  top : 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 10px;
+}
+
+.SoporteCambia ul {
+  list-style: none;
+  margin-left: 10px;
+  animation: cambiarSoporte 5s infinite;
+}
+
+@keyframes cambiarSoporte {
+  0%{ margin-top: 0;}
+  20%{ margin-top: 0;}
+  25%{ margin-top: -50px;}
+  50%{ margin-top: -50px;}
+  75%{ margin-top: -50px;}
+  80%{ margin-top: 0px;}
+  100%{ margin-top: 0px;}
 }
 
 #Desarrollo{
@@ -122,35 +194,16 @@ video {
   position: absolute;
   top: 0;
   left: 0;
-  width: 200vh;
-  height: 110vh;
+  height: 100%;
+  width: 100%;
   object-fit: cover;
   scroll-snap-align: start;
-
 }
 
-/* DEMO-SPECIFIC STYLES */
-.typewriter h1 {
-  color: #fff;
-  font-family: monospace;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid rgb(255, 255, 255); /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation: 
-    typing 3.5s steps(30, end),
-    blink-caret .5s step-end;
-}
 
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: rgb(255, 255, 255) }
+.col50 {
+  
+  width: 50%;
+  display: inline-block;
+  float: left;
 }
