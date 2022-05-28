@@ -100,37 +100,101 @@ export default function Home() {
             <div className='SoporteContent'>
                 <div className='SoporteParrafo'>
                     <div className='SoporteCambia'>
-                    <ul style={{'margin-right':'11px'}}>
-                        <li>Concentrate </li>
-                        <li>nosotros </li>
-                      </ul>
-                        en_tu 
-                      <ul>
-                        <li>negocio</li>
-                        <li>tecnología</li>
-                      </ul>
+                      Concentrate en tu negocio
+                      <br/>
+                      nosotros en tu tecnología
                     </div>
                 </div>
               </div>
           </div>
           <div className='col50'>
             <div style={{'margin-top' : '69px'}}>
-              <h1>Soporte T.I.</h1>
-    Te apoyamos en la administración de tu infraestructura de tecnología. Contarás con un departamento de informática independiente de tu estructura o tamaño. Apoyado con personal técnico capacitado y comprometido para que todo funcione correctamente.
-    Te ofrecemos asesoría en tecnología para asegurarte que tu empresa estará actualizada y aplicando las mejores herramientas y soluciones para tu negocio.
-    Contamos con amplia experiencia en Administracion de Centros de Computos, Administración de Comunicaciones, Servidores, Telefonia IP y Servicio a Usuarios.
+            <div class="wp container animated fadeInUp" data-animate="fadeInUp">
+                <h3><b>Soporte T.I.</b></h3>
+                <p>Te apoyamos en la administración de tu infraestructura de tecnología. Contarás con un departamento de
+                  informática independiente de tu estructura o tamaño. Apoyado con personal técnico capacitado y comprometido
+                  para que todo funcione correctamente.</p>
+                <p>Te ofrecemos asesoría en tecnología para asegurarte que tu empresa estará actualizada y aplicando las
+                  mejores herramientas y soluciones para tu negocio.</p>
+                <p>Contamos con amplia experiencia en Administracion de Centros de Computos, Administración de Comunicaciones,
+                  Servidores, Telefonia IP y Servicio a Usuarios.</p>
+              </div>
             </div>
           </div>
       </div>
+
       <div id="Desarrollo"  className='backgroundBlocked' style={{'height':'120vh'}}>
-        <h1>Desarrollo</h1>
+        <div className='col50'>
+            <div class="wp container animated fadeInUp">
+                <h3><b>Desarrollo de Software</b></h3>
+                <p>Desarrollamos soluciones en múltiples plataformas para distintos mercados y destinos.</p>
+                <p>Tomemos un café y hablemos sobre tus necesidades puntuales y desarrollaremos una solución acorde, ágil, innovadora y que ayude a la mejora y automatización en tus procesos.</p>
+                <p>Staff Augmentation Contamos con recursos altamente calificados para sumar a tu equipo o proyectos. Desarrolladores, Project Manager.</p>
+            </div>
+        </div>
+        <div className='col50 Content' style={{'width':'50%', 'height' : '100%'}}>
+              <div className='DesarrolloContent'>
+                  <div className='SoporteParrafo'>
+                      <div className='SoporteCambia'>
+                      Tu solución a medida,
+                      <br/>
+                      ágil y eficiente
+                      </div>
+                  </div>
+                </div>
+            </div>
       </div>
+
       <div id="Servicios"  className='backgroundBlocked' style={{'height':'120vh'}}>
-        <h1>Servicios en la Nube</h1>
+        <div className='col50 Content' style={{'width':'50%', 'height' : '100%'}}>
+            <video autoPlay muted loop>         
+                <source src="/satelites.mp4" type="video/mp4"/>       
+            </video>
+            <div className='ServicioContent'>
+                <div className='SoporteParrafo'>
+                    <div className='SoporteCambia'>
+                    Te conectamos con la nube
+                    </div>
+                </div>
+              </div>
+          </div>
+          <div className='col50'>
+            <div style={{'margin-top' : '69px'}}>
+            <div class="wp container animated fadeInUp" data-animate="fadeInUp">
+                <h3><b>Servicios en la Nube.</b></h3>
+                <p>Uno de los principales desafíos de las empresas hoy en día es asegurar la disponibilidad 
+                  de sus aplicacaciones de negocio, con nuestros servicios de cloud computing usted gana en tranquilidad.</p>
+
+                <p>Ofrecemos servicios de respaldos en la nube, servicios de servidores 100% en 
+                  la nube y contingencia, lo que asegura la continuidad de su negocio pase lo que pase.</p>
+              </div>
+            </div>
+          </div>
       </div>
+
       <div id="Staff" className='backgroundBlocked' style={{'height':'120vh'}}>
-        <h1>Staff Augmentation</h1>
+        <div className='col50'>
+            <div class="wp container animated fadeInUp">
+                <h3><b>Staff Augmentation</b></h3>
+                <p>Los recursos necesarios en el momento justo</p>
+                <p>Este servicio te permite subcontratar personal calificado, demanera que se cubran todas las necesidades de conocimientos y habilidades que tu proyecto requiere.</p>
+                <p>Necesitas darle un impulso a tu proyecto?</p>
+                <p>Ponerte al día con tus objetivos de desarrollo?</p>
+                <p>Tienes un proyecto que no puedes atenderlo únicamente con tu personal interno?</p>
+                <p>Novatech es la extensión que tu equipo necesita.</p>
+            </div>
+        </div>
+        <div className='col50 Content' style={{'width':'50%', 'height' : '100%'}}>
+              <div className='DesarrolloContent'>
+                  <div className='SoporteParrafo'>
+                      <div className='SoporteCambia'>
+                      Los recursos necesarios en el momento justo
+                      </div>
+                  </div>
+                </div>
+            </div>
       </div>
+
       <div id="Contactanos" style={{'height':'800px'}}>
         <h1>Contactanos</h1>
       </div>

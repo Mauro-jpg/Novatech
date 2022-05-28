@@ -112,17 +112,21 @@ nav {
   animation: cambiar 7s infinite;
 }
 
+#NostrosTextBackground li {
+  background-color: #ffff;
+  color:#000;
+  border-radius: 5px;
+}
+
 @keyframes cambiar {
   0%{ margin-top: 0;}
   20%{ margin-top: 0;}
-  25%{ margin-top: -40px;}
-  50%{ margin-top: -40px;}
+  33.9%{ margin-top: 0;}
+  34%{ margin-top: -40px;}
+  66.9%{ margin-top: -40px;}
 
-  55%{ margin-top: -80px;}
-  80%{ margin-top: -80px;}
-
-  85%{ margin-top: -40px;}
-  95%{ margin-top: -40px;}
+  67%{ margin-top: -80px;}
+  99.9%{ margin-top: -80px;}
 
   100%{ margin-top: 0px;}
 }
@@ -130,7 +134,7 @@ nav {
 
 .SoporteContent {
   min-width: 500px;
-  width: 80%;
+  width: 59%;
   height: 10vh;
   margin-top: 80%;
   margin-left: 6%;
@@ -144,46 +148,71 @@ nav {
 .SoporteParrafo {
   font-size: 27px;
   height: 40px;
-  font-family: monospace;
-  overflow: hidden;
-  
+  margin-left: 40px;
+  font-family: monospace;  
 }
 
-.SoporteCambia{
-  display: flex;
-  top : 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  height: 10px;
+.col50 h3 {
+  padding-top: 20%;
+  font-size: 35px;
+  font-weight: 200;
+  color: #87C23F;
+  padding-left: 55px;
+  margin-bottom: 0;
 }
 
-.SoporteCambia ul {
-  list-style: none;
-  margin-left: 10px;
-  animation: cambiarSoporte 5s infinite;
+.col50 p {
+  font-size: 20px;
+  font-weight: 200;
+  padding: 15px 55px;
+  margin: 0px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
-@keyframes cambiarSoporte {
-  0%{ margin-top: 0;}
-  20%{ margin-top: 0;}
-  25%{ margin-top: -50px;}
-  50%{ margin-top: -50px;}
-  75%{ margin-top: -50px;}
-  80%{ margin-top: 0px;}
-  100%{ margin-top: 0px;}
+#Desarrollo .Content{
+  background-image: url('/desarrollo.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-position: center;
+  scroll-snap-align: start;
 }
 
-#Desarrollo{
-  background-image: url('/back3.jpeg');
+.DesarrolloContent {
+  min-width: 500px;
+  width: 59%;
+  height: 10vh;
+  margin-top: 58%;
+  margin-left: 22%;
+  font-size: 60px;
+  background-color: #000000;
+  opacity: 0.9;
+  border-radius: 15px;
+  color: #ffff;
 }
 
-#Servicios{
-  background-image: url('/back5.jpeg');
+.ServicioContent {
+  min-width: 500px;
+  width: 59%;
+  margin-top: 80%;
+  margin-left: 6%;
+  font-size: 60px;
+  background-color: #000000;
+  opacity: 0.9;
+  border-radius: 15px;
+  color: #ffff;
 }
 
-#Staff{
-  background-image: url('/back4.jpeg');
+#Staff .Content{
+  background-image: url(/staff.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100%;
+    background-position: center;
 }
 
 * {
