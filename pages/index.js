@@ -15,7 +15,7 @@ const Navbar = () => <header id="header">
     <span className="navbar-toggler-icon"></span>
   </button>
     <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul className="navbar-nav ">
+      <ul className="navbar-nav nav">
         <li className="nav-item">
           <Link href="#Nosotros">
             <a className="nav-link text-dark">Nosotros</a>
@@ -53,6 +53,7 @@ const Navbar = () => <header id="header">
 
 
 export default function Home() {
+
   return (
     <div className={styles.container}>
       <Head>
@@ -77,7 +78,7 @@ export default function Home() {
                     <br/>
                     Somos tu socio tecnológico, basamos nuestros servicios en la confianza, la buena comunicación y la agilidad para brindarte soluciones flexibles, seguras y de alto 
                     impacto que te ayuden a lograr tus objetivos.`]}
-                    typeSpeed={32}
+                    typeSpeed={15}
                 />
               </div>
               <div id="NostrosTextBackground">
@@ -196,10 +197,12 @@ export default function Home() {
       </div>
 
       <div id="Contactanos" style={{'height':'800px'}}>
-        <h1>Contactanos</h1>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1630.4001684723034!2d-56.199288011437595!3d-34.90342800784708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f802bd4be3925%3A0xb976bfbfab04f514!2s25%20de%20Mayo%20749%2C%2011000%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses-419!2suy!4v1653854208173!5m2!1ses-419!2suy" 
+      width="400" height="300" style={{"border":"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div>
+          <h1>Contactanos</h1>
+        </div>
       </div>
     </div>
   )
 }
-
-
