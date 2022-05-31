@@ -3,71 +3,47 @@
     position:relative;
   }
   
-  .NosotrosContent {
-    min-width: 500px;
-    width: 43%;
-    height: 40vh;
-    font-size: 60px;
-    background-color: #000000;
-    opacity: 0.9;
-    border-radius: 15px;
-    color: #ffff;
-  }
-  
-  #NostrosTextBackground{
-    display: flex;
-    width: 45vh;
-    height: 30vh;
-    font-size: 40px;
-    line-height: 80px;
-    color:#ffff;
-    background-color: #F89E5C;
-    position: absolute;
-    top: 0%;
-    right: 70%;
-    bottom: 40%;
-    left: 0;
-    margin: auto;
-    padding: 10px;
-    border-radius: 15px;
-    box-shadow: 5px 2px 5px 1px rgba(0, 0, 0, 0.5);
+.NosotrosContent {
+  min-width: 500px;
+  width: 100%;
+  height: 20%;
+  font-size: 60px;
+  background-color: #ffff;
+  color: #000;
+  position: absolute;
+  bottom: 0;
+}
 
-  
-    z-index: 1;
-    font-family: PTSansNarrow;
-  }
-  
-  .NosotrosParrafo {
-    width: 90%;
-    height: 38px;
-    margin: 30px;
-    font-size: 20px;
-    font-family: monospace;
-    display: table;
-    line-height: 40px;
-  }
-  
-  #NostrosTextBackground ul {
-    list-style: none;
-    padding-left: 20px;
-    animation: cambiar 7s infinite;
-  }
-  
-  #NostrosTextBackground li {
-    background-color: #ffff;
-    color:#000;
-    border-radius: 5px;
-  }
-  
-  @keyframes cambiar {
-    0%{ margin-top: 0;}
-    20%{ margin-top: 0;}
-    33.9%{ margin-top: 0;}
-    34%{ margin-top: -40px;}
-    66.9%{ margin-top: -40px;}
-  
-    67%{ margin-top: -80px;}
-    99.9%{ margin-top: -80px;}
-  
-    100%{ margin-top: 0px;}
-  }
+.NosotrosParrafo {
+  width: 50%;
+  height: 38px;
+  margin-top: 1%;
+  margin-left: 20%;
+  font-size: 22px;
+  font-family: PTSansNarrow;
+  position: absolute;
+  line-height: 40px;
+}
+
+#NostrosTextBackground{
+  display: flex;
+  width: 36vh;
+  height: 27vh;
+  font-size: 40px;
+  line-height: 80px;
+  color:#000;
+  background-color: #F89E5C;
+  position: absolute;
+  top: 0%;
+  right: 70%;
+  bottom: 40%;
+  left: 0;
+  margin: auto;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 5px 2px 5px 1px rgba(0, 0, 0, 0.5);
+
+
+  z-index: 1;
+  font-family: PTSansNarrow;
+}
