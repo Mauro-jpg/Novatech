@@ -8,7 +8,11 @@ import Typed from 'react-typed';
 const Navbar = () => <header id="header">
   <nav className="navbar navbar-expand-lg navbar-light w-100 border-3 border-bottom border-dark">
   <a className="navbar-brand logoNavBar p-4" href="#">
-    <img src='/logo.png' id="logo" />
+    <div class='badge'>
+      <div class='textLogo'>
+        
+      </div>
+    </div>
   </a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
   aria-label="Toggle navigation">
@@ -51,6 +55,151 @@ const Navbar = () => <header id="header">
   </nav>
 </header>
 
+const Nosotros = () => <div id="Nosotros" className='border-5 border-bottom border-success' style={{'height':'120vh'}}>
+<div className='Content'>
+    <video autoPlay muted loop>         
+      <source src="/background.mp4" type="video/mp4"/>       
+    </video>
+    <div id="NostrosTextBackground">
+      <Typed
+            strings={[`NUEVAS NECESIDADES,
+            <br>
+            NUEVAS TECNOLOGÍAS,
+            <br>
+            NUEVAS SOLUCIONES`]}
+            typeSpeed={15}
+        />
+      </div>
+    <div className='NosotrosContent'>
+      <div className='NosotrosParrafo'>
+        Desde 2006, Dimensionamos, Implementamos y Administramos las soluciones tecnológicas que tu empresa necesita.
+            <br/>
+            <br/>
+            Somos tu socio tecnológico, basamos nuestros servicios en la confianza, la buena comunicación y la agilidad para brindarte soluciones flexibles, seguras y de alto 
+            impacto que te ayuden a lograr tus objetivos.
+      </div>
+      
+    </div>
+</div>
+</div>
+
+const Soporte = () => <div id="Soporte" className='backgroundBlocked border-5 border-bottom border-success' style={{'height':'100vh'}}>        
+<div className='col50 Content' style={{'width':'50%', 'height' : '100%'}}>
+  <video autoPlay muted loop>         
+      <source src="/it.mp4" type="video/mp4"/>       
+  </video>
+  <div className='SoporteContent'>
+      <div className='SoporteParrafo'>
+          <div className='SoporteCambia'>
+            Concentrate en tu negocio
+            <br/>
+            nosotros en tu tecnología
+          </div>
+      </div>
+    </div>
+</div>
+<div className='col50'>
+  <div style={{'margin-top' : '69px'}}>
+  <div class="wp container animated fadeInUp" data-animate="fadeInUp">
+      <h3><b>Soporte T.I.</b></h3>
+      <p>Te apoyamos en la administración de tu infraestructura de tecnología. Contarás con un departamento de
+        informática independiente de tu estructura o tamaño. Apoyado con personal técnico capacitado y comprometido
+        para que todo funcione correctamente.</p>
+      <p>Te ofrecemos asesoría en tecnología para asegurarte que tu empresa estará actualizada y aplicando las
+        mejores herramientas y soluciones para tu negocio.</p>
+      <p>Contamos con amplia experiencia en Administracion de Centros de Computos, Administración de Comunicaciones,
+        Servidores, Telefonia IP y Servicio a Usuarios.</p>
+    </div>
+  </div>
+</div>
+</div>
+
+const Desarrollo = () => <div id="Desarrollo"  className='backgroundBlocked border-5 border-bottom border-success' style={{'height':'120vh'}}>
+<div className='col50'>
+    <div class="wp container animated fadeInUp">
+        <h3><b>Desarrollo de Software</b></h3>
+        <p>Desarrollamos soluciones en múltiples plataformas para distintos mercados y destinos.</p>
+        <p>Tomemos un café y hablemos sobre tus necesidades puntuales y desarrollaremos una solución acorde, ágil, innovadora y que ayude a la mejora y automatización en tus procesos.</p>
+        <p>Staff Augmentation Contamos con recursos altamente calificados para sumar a tu equipo o proyectos. Desarrolladores, Project Manager.</p>
+    </div>
+</div>
+<div className='col50 Content' style={{'width':'50%', 'height' : '100%'}}>
+      <div className='DesarrolloContent'>
+          <div className='SoporteParrafo'>
+              <div className='SoporteCambia'>
+              Tu solución a medida,
+              <br/>
+              ágil y eficiente
+              </div>
+          </div>
+        </div>
+    </div>
+</div>
+
+const Servicios = () => <div id="Servicios"  className='backgroundBlocked border-5 border-bottom border-success' style={{'height':'120vh'}}>
+<div className='col50 Content' style={{'width':'50%', 'height' : '100%'}}>
+    <video autoPlay muted loop>         
+        <source src="/satelites.mp4" type="video/mp4"/>       
+    </video>
+    <div className='ServicioContent'>
+        <div className='SoporteParrafo'>
+            <div className='SoporteCambia'>
+            Te conectamos con la nube
+            </div>
+        </div>
+      </div>
+  </div>
+  <div className='col50'>
+    <div style={{'margin-top' : '69px'}}>
+    <div class="wp container animated fadeInUp" data-animate="fadeInUp">
+        <h3><b>Servicios en la Nube.</b></h3>
+        <p>Uno de los principales desafíos de las empresas hoy en día es asegurar la disponibilidad 
+          de sus aplicacaciones de negocio, con nuestros servicios de cloud computing usted gana en tranquilidad.</p>
+
+        <p>Ofrecemos servicios de respaldos en la nube, servicios de servidores 100% en 
+          la nube y contingencia, lo que asegura la continuidad de su negocio pase lo que pase.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+const Staff = () => <div id="Staff" className='backgroundBlocked border-5 border-bottom border-success' style={{'height':'120vh'}}>
+<div className='col50'>
+    <div class="wp container animated fadeInUp">
+        <h3><b>Staff Augmentation</b></h3>
+        <p>Los recursos necesarios en el momento justo</p>
+        <p>Este servicio te permite subcontratar personal calificado, demanera que se cubran todas las necesidades de conocimientos y habilidades que tu proyecto requiere.</p>
+        <p>Necesitas darle un impulso a tu proyecto?</p>
+        <p>Ponerte al día con tus objetivos de desarrollo?</p>
+        <p>Tienes un proyecto que no puedes atenderlo únicamente con tu personal interno?</p>
+        <p>Novatech es la extensión que tu equipo necesita.</p>
+    </div>
+</div>
+<div className='col50 Content' style={{'width':'50%', 'height' : '100%'}}>
+      <div className='DesarrolloContent'>
+          <div className='SoporteParrafo'>
+              <div className='SoporteCambia'>
+              Los recursos necesarios en el momento justo
+              </div>
+          </div>
+        </div>
+    </div>
+</div>
+
+const Contactanos = () => <div id="Contactanos" style={{'height':'800px'}}>
+  <div className='col50'>
+    <h1>Contactanos</h1>
+    <p>info@novatech.com.uy</p>
+    <p>22049488</p>
+    <p>25 de Mayo 747, Montevideo, Uruguay.</p>
+  </div>
+  <div className='col50'>
+    
+  </div>
+  <br/>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1630.4001684723034!2d-56.199288011437595!3d-34.90342800784708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f802bd4be3925%3A0xb976bfbfab04f514!2s25%20de%20Mayo%20749%2C%2011000%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses-419!2suy!4v1653854208173!5m2!1ses-419!2suy" 
+width="400" height="300" style={{"border":"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
 
 export default function Home() {
 
@@ -63,146 +212,18 @@ export default function Home() {
       </Head>
       <Navbar />
 
-      <div id="Nosotros" className='border-3 border-bottom border-warning' style={{'height':'120vh'}}>
-        <div className='Content'>
-            <video autoPlay muted loop>         
-              <source src="/background.mp4" type="video/mp4"/>       
-            </video>
-            <div className='NosotrosContent'>
-              <div className='NosotrosParrafo'>
-                <h1>Nosotros</h1>
-                <br />
-                <Typed
-                    strings={[`Desde 2006, Dimensionamos, Implementamos y Administramos las soluciones tecnológicas que tu empresa necesita.
-                    <br/>
-                    <br/>
-                    Somos tu socio tecnológico, basamos nuestros servicios en la confianza, la buena comunicación y la agilidad para brindarte soluciones flexibles, seguras y de alto 
-                    impacto que te ayuden a lograr tus objetivos.`]}
-                    typeSpeed={15}
-                />
-              </div>
-              <div id="NostrosTextBackground">
-               > NUEVAS 
-                <ul>
-                  <li>NECESIDADES</li>
-                  <li>TECNOLOGÍAS</li>
-                  <li>SOLUCIONES</li>
-                </ul>
-              </div>
-            </div>
-        </div>
-      </div>
+      <Nosotros/>
 
-      <div id="Soporte" className='backgroundBlocked' style={{'height':'100vh'}}>        
-          <div className='col50 Content' style={{'width':'50%', 'height' : '100%'}}>
-            <video autoPlay muted loop>         
-                <source src="/it.mp4" type="video/mp4"/>       
-            </video>
-            <div className='SoporteContent'>
-                <div className='SoporteParrafo'>
-                    <div className='SoporteCambia'>
-                      Concentrate en tu negocio
-                      <br/>
-                      nosotros en tu tecnología
-                    </div>
-                </div>
-              </div>
-          </div>
-          <div className='col50'>
-            <div style={{'margin-top' : '69px'}}>
-            <div class="wp container animated fadeInUp" data-animate="fadeInUp">
-                <h3><b>Soporte T.I.</b></h3>
-                <p>Te apoyamos en la administración de tu infraestructura de tecnología. Contarás con un departamento de
-                  informática independiente de tu estructura o tamaño. Apoyado con personal técnico capacitado y comprometido
-                  para que todo funcione correctamente.</p>
-                <p>Te ofrecemos asesoría en tecnología para asegurarte que tu empresa estará actualizada y aplicando las
-                  mejores herramientas y soluciones para tu negocio.</p>
-                <p>Contamos con amplia experiencia en Administracion de Centros de Computos, Administración de Comunicaciones,
-                  Servidores, Telefonia IP y Servicio a Usuarios.</p>
-              </div>
-            </div>
-          </div>
-      </div>
+      <Soporte/>
 
-      <div id="Desarrollo"  className='backgroundBlocked' style={{'height':'120vh'}}>
-        <div className='col50'>
-            <div class="wp container animated fadeInUp">
-                <h3><b>Desarrollo de Software</b></h3>
-                <p>Desarrollamos soluciones en múltiples plataformas para distintos mercados y destinos.</p>
-                <p>Tomemos un café y hablemos sobre tus necesidades puntuales y desarrollaremos una solución acorde, ágil, innovadora y que ayude a la mejora y automatización en tus procesos.</p>
-                <p>Staff Augmentation Contamos con recursos altamente calificados para sumar a tu equipo o proyectos. Desarrolladores, Project Manager.</p>
-            </div>
-        </div>
-        <div className='col50 Content' style={{'width':'50%', 'height' : '100%'}}>
-              <div className='DesarrolloContent'>
-                  <div className='SoporteParrafo'>
-                      <div className='SoporteCambia'>
-                      Tu solución a medida,
-                      <br/>
-                      ágil y eficiente
-                      </div>
-                  </div>
-                </div>
-            </div>
-      </div>
+      <Desarrollo />
 
-      <div id="Servicios"  className='backgroundBlocked' style={{'height':'120vh'}}>
-        <div className='col50 Content' style={{'width':'50%', 'height' : '100%'}}>
-            <video autoPlay muted loop>         
-                <source src="/satelites.mp4" type="video/mp4"/>       
-            </video>
-            <div className='ServicioContent'>
-                <div className='SoporteParrafo'>
-                    <div className='SoporteCambia'>
-                    Te conectamos con la nube
-                    </div>
-                </div>
-              </div>
-          </div>
-          <div className='col50'>
-            <div style={{'margin-top' : '69px'}}>
-            <div class="wp container animated fadeInUp" data-animate="fadeInUp">
-                <h3><b>Servicios en la Nube.</b></h3>
-                <p>Uno de los principales desafíos de las empresas hoy en día es asegurar la disponibilidad 
-                  de sus aplicacaciones de negocio, con nuestros servicios de cloud computing usted gana en tranquilidad.</p>
+      <Servicios />
 
-                <p>Ofrecemos servicios de respaldos en la nube, servicios de servidores 100% en 
-                  la nube y contingencia, lo que asegura la continuidad de su negocio pase lo que pase.</p>
-              </div>
-            </div>
-          </div>
-      </div>
+      <Staff />
 
-      <div id="Staff" className='backgroundBlocked' style={{'height':'120vh'}}>
-        <div className='col50'>
-            <div class="wp container animated fadeInUp">
-                <h3><b>Staff Augmentation</b></h3>
-                <p>Los recursos necesarios en el momento justo</p>
-                <p>Este servicio te permite subcontratar personal calificado, demanera que se cubran todas las necesidades de conocimientos y habilidades que tu proyecto requiere.</p>
-                <p>Necesitas darle un impulso a tu proyecto?</p>
-                <p>Ponerte al día con tus objetivos de desarrollo?</p>
-                <p>Tienes un proyecto que no puedes atenderlo únicamente con tu personal interno?</p>
-                <p>Novatech es la extensión que tu equipo necesita.</p>
-            </div>
-        </div>
-        <div className='col50 Content' style={{'width':'50%', 'height' : '100%'}}>
-              <div className='DesarrolloContent'>
-                  <div className='SoporteParrafo'>
-                      <div className='SoporteCambia'>
-                      Los recursos necesarios en el momento justo
-                      </div>
-                  </div>
-                </div>
-            </div>
-      </div>
+      <Contactanos />
 
-      <div id="Contactanos" style={{'height':'800px'}}>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1630.4001684723034!2d-56.199288011437595!3d-34.90342800784708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f802bd4be3925%3A0xb976bfbfab04f514!2s25%20de%20Mayo%20749%2C%2011000%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses-419!2suy!4v1653854208173!5m2!1ses-419!2suy" 
-      width="400" height="300" style={{"border":"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <div>
-          <h1>Contactanos</h1>
-        </div>
-      </div>
     </div>
   )
 }

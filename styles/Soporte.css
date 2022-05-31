@@ -1,0 +1,19 @@
+.SoporteContent {
+    min-width: 500px;
+    width: 59%;
+    height: 10vh;
+    margin-top: 80%;
+    margin-left: 6%;
+    font-size: 60px;
+    background-color: #000000;
+    opacity: 0.9;
+    border-radius: 15px;
+    color: #ffff;
+  }
+  
+  .SoporteParrafo {
+    font-size: 27px;
+    height: 40px;
+    margin-left: 40px;
+    font-family: monospace;  
+  }

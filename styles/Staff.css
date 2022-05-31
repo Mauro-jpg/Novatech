@@ -1,0 +1,8 @@
+
+#Staff .Content{
+    background-image: url(/staff.jpeg);
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: 100%;
+      background-position: center;
+  }

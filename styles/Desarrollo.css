@@ -1,0 +1,21 @@
+#Desarrollo .Content{
+    background-image: url('/desarrollo.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: center;
+    scroll-snap-align: start;
+  }
+  
+  .DesarrolloContent {
+    min-width: 500px;
+    width: 59%;
+    height: 10vh;
+    margin-top: 58%;
+    margin-left: 22%;
+    font-size: 60px;
+    background-color: #000000;
+    opacity: 0.9;
+    border-radius: 15px;
+    color: #ffff;
+  }

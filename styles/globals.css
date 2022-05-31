@@ -1,3 +1,8 @@
+@font-face {
+  font-family: PTSansNarrow;
+  src: url('./Fonsts/PTSansNarrow-Regular.ttf');
+}
+
 html,
 body {
   padding: 0;
@@ -25,75 +30,6 @@ a {
   margin-top: -96px;
 }
 
-nav {
-  background-color : rgba(255, 255, 255);
-  max-height: 96px;
-}
-
-.nav {
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 600;
-}
-
-.nav * {
-  box-sizing: border-box;
-  transition: all .35s ease;
-}
-
-.nav li {
-  display: inline-block;
-  list-style: outside none none;
-  margin: .5em 1em;
-  padding: 0;
-}
-
-.nav a {
-  padding: .5em .8em;
-  color: rgba(255,255,255,.5);
-  position: relative;
-  text-decoration: none;
-  font-size: 15px;
-}
-
-.nav a::before,
-.nav a::after {
-  content: '';
-  height: 14px;
-  width: 14px;
-  position: absolute;
-  transition: all .35s ease;
-  opacity: 0;
-}
-
-.nav a::before {
-  content: '';
-  right: 0;
-  top: 0;
-  border-top: 3px solid #F89E5C;
-  border-right: 3px solid #F89E5C;
-  transform: translate(-100%, 50%);
-}
-
-.nav a:after {
-  content: '';
-  left: 0;
-  bottom: 0;
-  border-bottom: 3px solid #F89E5C;
-  border-left: 3px solid #F89E5C;
-  transform: translate(100%, -50%)
-}
-
-.nav a:hover:before,
-.nav a:hover:after{
-  transform: translate(0,0);
-  opacity: 1;
-}
-
-.nav a:hover {
-  color: #F89E5C;
-}
-
 #logo {
   max-width : 96px; 
   margin-top : 15px; 
@@ -113,10 +49,6 @@ nav {
   scroll-snap-align: start;
 }
 
-#Nosotros{
-  margin-top: 69px;
-  position:relative;
-}
 
 .Content {
   margin-top: 69px;
@@ -130,91 +62,6 @@ nav {
    background: #ccc;
 }
 
-.NosotrosContent {
-  min-width: 500px;
-  width: 43%;
-  height: 60vh;
-  font-size: 60px;
-  background-color: #000000;
-  opacity: 0.9;
-  border-radius: 15px;
-  color: #ffff;
-}
-
-#NostrosTextBackground{
-  display: flex;
-  width: 45vh;
-  height: 38px;
-  font-size: 30px;
-  line-height: 40px;
-
-  position: absolute;
-  top:43%;
-  right:0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
-  overflow: hidden;
-
-  z-index: 1;
-  font-family: monospace;
-}
-
-.NosotrosParrafo {
-  width: 90%;
-  height: 38px;
-  margin: 30px;
-  font-size: 20px;
-  font-family: monospace;
-  display: table;
-  line-height: 40px;
-}
-
-#NostrosTextBackground ul {
-  list-style: none;
-  padding-left: 20px;
-  animation: cambiar 7s infinite;
-}
-
-#NostrosTextBackground li {
-  background-color: #ffff;
-  color:#000;
-  border-radius: 5px;
-}
-
-@keyframes cambiar {
-  0%{ margin-top: 0;}
-  20%{ margin-top: 0;}
-  33.9%{ margin-top: 0;}
-  34%{ margin-top: -40px;}
-  66.9%{ margin-top: -40px;}
-
-  67%{ margin-top: -80px;}
-  99.9%{ margin-top: -80px;}
-
-  100%{ margin-top: 0px;}
-}
-
-
-.SoporteContent {
-  min-width: 500px;
-  width: 59%;
-  height: 10vh;
-  margin-top: 80%;
-  margin-left: 6%;
-  font-size: 60px;
-  background-color: #000000;
-  opacity: 0.9;
-  border-radius: 15px;
-  color: #ffff;
-}
-
-.SoporteParrafo {
-  font-size: 27px;
-  height: 40px;
-  margin-left: 40px;
-  font-family: monospace;  
-}
 
 .col50 h3 {
   padding-top: 20%;
@@ -223,6 +70,13 @@ nav {
   color: #87C23F;
   padding-left: 55px;
   margin-bottom: 0;
+}
+
+.col50 {
+  
+  width: 50%;
+  display: inline-block;
+  float: left;
 }
 
 .col50 p {
@@ -237,48 +91,6 @@ nav {
   margin-inline-end: 0px;
 }
 
-#Desarrollo .Content{
-  background-image: url('/desarrollo.jpeg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100%;
-  background-position: center;
-  scroll-snap-align: start;
-}
-
-.DesarrolloContent {
-  min-width: 500px;
-  width: 59%;
-  height: 10vh;
-  margin-top: 58%;
-  margin-left: 22%;
-  font-size: 60px;
-  background-color: #000000;
-  opacity: 0.9;
-  border-radius: 15px;
-  color: #ffff;
-}
-
-.ServicioContent {
-  min-width: 500px;
-  width: 59%;
-  margin-top: 80%;
-  margin-left: 6%;
-  font-size: 60px;
-  background-color: #000000;
-  opacity: 0.9;
-  border-radius: 15px;
-  color: #ffff;
-}
-
-#Staff .Content{
-  background-image: url(/staff.jpeg);
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: 100%;
-    background-position: center;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -290,17 +102,5 @@ video {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  scroll-snap-align: start;
-}
-
-
-.col50 {
-  
-  width: 50%;
-  display: inline-block;
-  float: left;
-}
-
-#Contactanos{
   scroll-snap-align: start;
 }

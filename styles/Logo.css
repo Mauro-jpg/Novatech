@@ -1,0 +1,20 @@
+
+
+.badge {
+	position: relative;
+    margin-top: 55%;
+	width: 4rem;
+	height: 4rem;
+	cursor: pointer;
+	background: url(https://www.novatech.com.uy/imagenes/logo.png) no-repeat 100% 50%;
+	background-color: #ffff;
+	background-size: 100%;
+	border-radius: 50%;
+	transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+	box-shadow: 0px 0.5rem 1rem rgba(0, 0, 0, 0.75);
+}
+
+.badge:hover {
+    box-shadow: 0px 0.5rem 2rem rgba(0, 0, 0, 0.75);
+    background-position: 50% 50%;
+}

@@ -1,0 +1,11 @@
+.ServicioContent {
+    min-width: 500px;
+    width: 59%;
+    margin-top: 80%;
+    margin-left: 6%;
+    font-size: 60px;
+    background-color: #000000;
+    opacity: 0.9;
+    border-radius: 15px;
+    color: #ffff;
+  }
