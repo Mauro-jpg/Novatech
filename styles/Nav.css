@@ -2,7 +2,7 @@ nav {
     background-color : rgba(255, 255, 255);
     max-height: 96px;
     overflow: hidden;
-    background-color: #F89E5C;
+    background-color: #f6b88b;
   }
   
   .nav {
@@ -71,4 +71,41 @@ nav {
   
   .nav a:hover {
     color: #000;
+  }
+
+
+  @media only screen and (max-width: 1147px) {
+    .nav a {
+      font-size: 14px;
+    }
+  }
+
+  @media only screen and (max-width: 1100px) {
+    .nav a {
+      font-size: 13px;
+    }
+  }
+
+  @media only screen and (max-width: 1056px) {
+    .nav a {
+      font-size: 12px;
+      padding: .4em .8em;
+    }
+  }
+
+  @media only screen and (max-width: 1013px) {
+    .nav li {
+      margin: .2em 0em;
+    }
+  }
+
+  @media only screen and (max-width: 991px) {
+    .navbar-toggler {
+      margin-top: 10px;
+      margin-right: 10px;
+    }
+
+    .navbar {
+      flex-wrap: nowrap !important;
+    }
   }

@@ -7,9 +7,9 @@ import Typed from 'react-typed';
 
 const Navbar = () => <header id="header">
   <nav className="navbar navbar-expand-lg navbar-light w-100 border-3 border-bottom border-dark">
-  <a className="navbar-brand logoNavBar p-4" href="#">
-    <div className='badge'>
-      <div className='textLogo'>
+  <a className="p-4" href="#">
+    <div className='logo'>
+      <div>
         
       </div>
     </div>
@@ -66,7 +66,7 @@ const Nosotros = () => <div id="Nosotros" className='border-5 border-bottom bord
             <br>
             NUEVAS TECNOLOGÍAS,
             <br>
-            NUEVAS SOLUCIONES`]}
+            NUEVAS SOLUCIONES...`]}
             typeSpeed={15}
         />
     </div>
