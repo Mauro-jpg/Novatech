@@ -23,3 +23,116 @@
 .line {
   border-right: 1px solid;
 }
+
+footer form {
+    width: 100%;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+footer form label input {
+  border: 1px solid #333;
+  height: 25px;
+  font-size: 16px;
+  font-weight: 200;
+  font-family: 'Montserrat', sans-serif;
+  width: 90%;
+  margin: 0;
+  padding: 5px 10px;
+}
+
+input {
+  writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: fieldtext;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: auto;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  background-color: field;
+  margin: 2px;
+  padding: 1px 2px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+}
+
+textarea {
+  writing-mode: horizontal-tb !important;
+  font-family: monospace;
+  text-rendering: auto;
+  color: fieldtext;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: auto;
+  -webkit-rtl-ordering: logical;
+  resize: auto;
+  cursor: text;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  background-color: field;
+  column-count: initial !important;
+  margin: 0em;
+  border-width: 1px;
+  border-style: solid;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+  padding: 2px;
+}
+
+footer form label textarea {
+  border: 1px solid #333;
+  height: 50px;
+  resize: none;
+  font-size: 16px;
+  font-weight: 200;
+  font-family: 'Montserrat', sans-serif;
+  width: 90%;
+  margin: 0;
+  padding: 5px 10px;
+}
+
+#enviar {
+  width: 292px;
+  height: 35px !important;
+  font-size: 18px;
+  display: block;
+  border: 1px solid #000;
+  background-color: #000;
+  color: #FFF;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+input[type="button" i] {
+  appearance: auto;
+  user-select: none;
+  white-space: pre;
+  align-items: flex-start;
+  text-align: center;
+  cursor: default;
+  box-sizing: border-box;
+  background-color: buttonface;
+  color: buttontext;
+  padding: 1px 6px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: buttonborder;
+  border-image: initial;
+}

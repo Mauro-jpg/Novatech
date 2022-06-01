@@ -194,9 +194,29 @@ const Contactanos = () => <footer id="Contactanos" style={{'height':'800px'}}>
   </div>
   <div className='col30 line'>
     
-    <p>info@novatech.com.uy</p>
-    <p>22049488</p>
-    <p>25 de Mayo 747, Montevideo, Uruguay.</p>
+  <form id="form-email" abineguid="3401ED4161E94E128C6F6CFA05A4B13E">
+            <label>
+              <input placeholder="Nombre:" id="nombre" type="text" name="nombre" data-validation-engine="validate[required]" />
+            </label>
+            <label>
+              <input placeholder="Correo electrónico:" id="email" type="email" name="email" data-validation-engine="validate[required,custom[email]]" />
+            <div id="pwm-inline-icon-24111" class="pwm-field-icon" style={{"position": "absolute !important;",
+            "width": "18px !important;", "height": "18px !important;", "min-height": "0px !important;", "min-width": "0px !important;", "z-index": "2147483645 !important;", "box-shadow": "none !important;", "box-sizing": "content-box !important;", "background": "none !important;", "border": "none !important;", "padding": "0px !important;", "cursor": "pointer !important;", "outline": "none !important;", "margin-top": "-27.5px;", "margin-left": "270px;"}}>
+              <svg style={{"display": "inline-block !important;", "width": "16px !important;", "height": "16px !important;", "fill": "rgb(230, 0, 23) !important;", "margin-top": "0.5px !important;", "position": "absolute !important;", "top": "0px !important;", "left": "0px !important;"}} viewBox="0 0 40 64">
+                <g>
+                  <path d="m20,28.12a33.78,33.78 0 0 1 13.36,2.74a22.18,22.18 0 0 1 0.64,5.32c0,9.43 -5.66,17.81 -14,20.94c-8.34,-3.13 -14,-11.51 -14,-20.94a22.2,22.2 0 0 1 0.64,-5.32a33.78,33.78 0 0 1 13.36,-2.74m0,-28.12c-8.82,0 -14,7.36 -14,16.41l0,5.16c2,-1.2 2,-1.49 5,-2.08l0,-3.08c0,-6.21 2.9,-11.41 8.81,-11.41l0.19,0c6.6,0 9,4.77 9,11.41l0,3.08c3,0.58 3,0.88 5,2.08l0,-5.16c0,-9 -5.18,-16.41 -14,-16.41l0,0zm0,22c-6.39,0 -12.77,0.67 -18.47,4a31.6,31.6 0 0 0 -1.53,9.74c0,13.64 8.52,25 20,28.26c11.48,-3.27 20,-14.63 20,-28.26a31.66,31.66 0 0 0 -1.54,-9.77c-5.69,-3.3 -12.08,-4 -18.47,-4l0,0l0.01,0.03z">
+                    </path>
+                    <path d="m21.23,39.5a2.81,2.81 0 0 0 1.77,-2.59a2.94,2.94 0 0 0 -3,-2.93a3,3 0 0 0 -3,3a2.66,2.66 0 0 0 1.77,2.48l-1.77,4.54l6,0l-1.77,-4.5z">
+                </path>
+                </g></svg>
+                </div></label>
+            <label>
+              <textarea name="mensaje" placeholder="Mensaje:"></textarea>
+            </label>
+            <label>
+              <input value="enviar" id="enviar" type="button" name="enviar" />
+            </label>
+          </form>
   </div>
   <div className='col30'>
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1630.4001684723034!2d-56.199288011437595!3d-34.90342800784708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f802bd4be3925%3A0xb976bfbfab04f514!2s25%20de%20Mayo%20749%2C%2011000%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses-419!2suy!4v1653854208173!5m2!1ses-419!2suy" 
