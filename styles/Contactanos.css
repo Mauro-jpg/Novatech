@@ -2,4 +2,24 @@
 #Contactanos{
     width: 100%;
     scroll-snap-align: start;
+    text-align: center; 
   }
+
+#Contactanos h1 {
+  padding-top: 5%;
+  font-size: 40px;
+  font-weight: 200;
+  color: #87C23F;
+  margin-bottom: 0;
+}
+
+.col30 {
+  margin-top: 5%;
+  width: 30%;
+  display: inline-block;
+  float: left;
+}
+
+.line {
+  border-right: 1px solid;
+}
