@@ -88,11 +88,9 @@ const Soporte = () => <div id="Soporte" className='backgroundBlocked border-5 bo
   </video>
   <div className='SoporteContent'>
       <div className='SoporteParrafo'>
-          <div className='SoporteCambia'>
             Concentrate en tu negocio
             <br/>
             nosotros en tu tecnología
-          </div>
       </div>
     </div>
 </div>
@@ -123,8 +121,8 @@ const Desarrollo = () => <div id="Desarrollo"  className='backgroundBlocked bord
 </div>
 <div className='col50 Content' style={{'width':'50%', 'height' : '100%'}}>
       <div className='DesarrolloContent'>
-          <div className='SoporteParrafo'>
-              <div className='SoporteCambia'>
+          <div className='SoporteContent'>
+              <div className='SoporteParrafo'>
               Tu solución a medida,
               <br/>
               ágil y eficiente
@@ -139,12 +137,10 @@ const Servicios = () => <div id="Servicios"  className='backgroundBlocked border
     <video autoPlay muted loop>         
         <source src="/satelites.mp4" type="video/mp4"/>       
     </video>
-    <div className='ServicioContent'>
-        <div className='SoporteParrafo'>
-            <div className='SoporteCambia'>
-            Te conectamos con la nube
-            </div>
-        </div>
+      <div className='SoporteContent'>
+            <div className='SoporteParrafo'>
+          Te conectamos con la nube
+          </div>
       </div>
   </div>
   <div className='col50'>
@@ -173,9 +169,9 @@ const Staff = () => <div id="Staff" className='backgroundBlocked border-5 border
 </div>
 <div className='col50 Content' style={{'width':'50%', 'height' : '100%'}}>
       <div className='DesarrolloContent'>
-          <div className='SoporteParrafo'>
-              <div className='SoporteCambia'>
-              Los recursos necesarios en el momento justo
+          <div className='SoporteContent'>
+              <div className='SoporteParrafo'>
+                Los recursos necesarios en el momento justo
               </div>
           </div>
         </div>
