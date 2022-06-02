@@ -25,7 +25,7 @@
   font-size: 20px;
   font-family: PTSansNarrow;
   position: absolute;
-  line-height: 68px;
+  line-height: 44px;
 }
 
 #NostrosTextBackground{
@@ -64,7 +64,7 @@
 @media only screen and (max-width: 1224px) {
   .NosotrosParrafo { 
     width: 65%;
-    margin-left: 18%;
+    margin-left: 8%;
   }
 
   #Nosotros{
@@ -84,6 +84,7 @@
 @media only screen and (max-width: 1129px) {
   .NosotrosParrafo { 
     width: 70%;
+    margin-left: 1%;
   }
 
   #Nosotros{
@@ -97,8 +98,8 @@
 
 @media only screen and (max-width: 1048px) {
   .NosotrosParrafo { 
-    width: 75%;
-    margin-left: 10%;
+    width: 60%;
+    margin-left: 1%;
   }
   #NostrosTextBackground{
     bottom: 35%;
