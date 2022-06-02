@@ -55,7 +55,7 @@ const Navbar = () => <header id="header">
   </nav>
 </header>
 
-const Nosotros = () => <div id="Nosotros" className='border-5 border-bottom border-success fullHeight fullWidth'>
+const Nosotros = () => <div id="Nosotros" className='border-5 border-bottom border-success'>
 <div className='Content fullHeight'>
     <video autoPlay muted loop>         
       <source src="/background1.mp4" type="video/mp4"/>       
@@ -81,7 +81,7 @@ const Nosotros = () => <div id="Nosotros" className='border-5 border-bottom bord
 </div>
 </div>
 
-const Soporte = () => <div id="Soporte" className='backgroundBlocked border-5 border-bottom border-success' style={{'height':'100vh'}}>        
+const Soporte = () => <div id="Soporte" className='backgroundBlocked border-5 border-bottom border-success'>        
 <div className='col50 Content' style={{'width':'50%', 'height' : '100%'}}>
   <video autoPlay muted loop>         
       <source src="/it.mp4" type="video/mp4"/>       
@@ -97,8 +97,8 @@ const Soporte = () => <div id="Soporte" className='backgroundBlocked border-5 bo
     </div>
 </div>
 <div className='col50'>
-  <div style={{'marginTop' : '69px'}}>
-  <div className="wp container animated fadeInUp" data-animate="fadeInUp">
+  <div className='subCol50'>
+  <div className="subCol50 wp container animated fadeInUp" data-animate="fadeInUp">
       <h3><b>Soporte T.I.</b></h3>
       <p>Te apoyamos en la administración de tu infraestructura de tecnología. Contarás con un departamento de
         informática independiente de tu estructura o tamaño. Apoyado con personal técnico capacitado y comprometido
@@ -112,9 +112,9 @@ const Soporte = () => <div id="Soporte" className='backgroundBlocked border-5 bo
 </div>
 </div>
 
-const Desarrollo = () => <div id="Desarrollo"  className='backgroundBlocked border-5 border-bottom border-success' style={{'height':'100vh'}}>
+const Desarrollo = () => <div id="Desarrollo"  className='backgroundBlocked border-5 border-bottom border-success'>
 <div className='col50'>
-    <div className="wp container animated fadeInUp">
+    <div className="subCol50 wp container animated fadeInUp">
         <h3><b>Desarrollo de Software</b></h3>
         <p>Desarrollamos soluciones en múltiples plataformas para distintos mercados y destinos.</p>
         <p>Tomemos un café y hablemos sobre tus necesidades puntuales y desarrollaremos una solución acorde, ágil, innovadora y que ayude a la mejora y automatización en tus procesos.</p>
@@ -134,7 +134,7 @@ const Desarrollo = () => <div id="Desarrollo"  className='backgroundBlocked bord
     </div>
 </div>
 
-const Servicios = () => <div id="Servicios"  className='backgroundBlocked border-5 border-bottom border-success' style={{'height':'100vh'}}>
+const Servicios = () => <div id="Servicios"  className='backgroundBlocked border-5 border-bottom border-success'>
 <div className='col50 Content' style={{'width':'50%', 'height' : '100%'}}>
     <video autoPlay muted loop>         
         <source src="/satelites.mp4" type="video/mp4"/>       
@@ -148,7 +148,6 @@ const Servicios = () => <div id="Servicios"  className='backgroundBlocked border
       </div>
   </div>
   <div className='col50'>
-    <div style={{'marginTop' : '69px'}}>
     <div className="wp container animated fadeInUp" data-animate="fadeInUp">
         <h3><b>Servicios en la Nube.</b></h3>
         <p>Uno de los principales desafíos de las empresas hoy en día es asegurar la disponibilidad 
@@ -157,20 +156,19 @@ const Servicios = () => <div id="Servicios"  className='backgroundBlocked border
         <p>Ofrecemos servicios de respaldos en la nube, servicios de servidores 100% en 
           la nube y contingencia, lo que asegura la continuidad de su negocio pase lo que pase.</p>
       </div>
-    </div>
   </div>
 </div>
 
-const Staff = () => <div id="Staff" className='backgroundBlocked border-5 border-bottom border-success' style={{'height':'100vh'}}>
+const Staff = () => <div id="Staff" className='backgroundBlocked border-5 border-bottom border-success'>
 <div className='col50'>
     <div className="wp container animated fadeInUp">
         <h3><b>Staff Augmentation</b></h3>
-        <p>Los recursos necesarios en el momento justo</p>
-        <p>Este servicio te permite subcontratar personal calificado, demanera que se cubran todas las necesidades de conocimientos y habilidades que tu proyecto requiere.</p>
-        <p>Necesitas darle un impulso a tu proyecto?</p>
-        <p>Ponerte al día con tus objetivos de desarrollo?</p>
-        <p>Tienes un proyecto que no puedes atenderlo únicamente con tu personal interno?</p>
-        <p>Novatech es la extensión que tu equipo necesita.</p>
+        <p>Los recursos necesarios en el momento justo<br/><br/>
+        Este servicio te permite subcontratar personal calificado, demanera que se cubran todas las necesidades de conocimientos y habilidades que tu proyecto requiere.<br/><br/>
+        Necesitas darle un impulso a tu proyecto?<br/>
+        Ponerte al día con tus objetivos de desarrollo?<br/>
+        Tienes un proyecto que no puedes atenderlo únicamente con tu personal interno?<br/><br/>
+        Novatech es la extensión que tu equipo necesita.</p>
     </div>
 </div>
 <div className='col50 Content' style={{'width':'50%', 'height' : '100%'}}>

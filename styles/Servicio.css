@@ -9,3 +9,14 @@
     border-radius: 15px;
     color: #ffff;
   }
+
+  #Servicios{
+    height: 100vh;
+  }
+
+  @media only screen and (max-width: 1024px) and (max-height: 600px) {
+    #Servicios{
+      height: 125.5vh;
+      width: 214vh;
+    }
+  }

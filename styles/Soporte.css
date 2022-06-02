@@ -1,5 +1,4 @@
 .SoporteContent {
-    min-width: 500px;
     width: 59%;
     height: 10vh;
     margin-top: 80%;
@@ -10,10 +9,26 @@
     border-radius: 15px;
     color: #ffff;
   }
+
+  #Soporte{
+    height: 100vh;
+  }
   
   .SoporteParrafo {
     font-size: 27px;
     height: 40px;
     margin-left: 40px;
     font-family: monospace;  
+  }
+
+  @media only screen and (max-width: 1024px) and (max-height: 600px) {
+    #Soporte {
+      height: 125.5vh;
+      width: 214vh;
+    }
+
+    .SoporteContent {
+      height: 13vh;
+      width: 78vh;
+    }
   }
