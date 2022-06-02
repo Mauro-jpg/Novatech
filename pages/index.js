@@ -55,8 +55,8 @@ const Navbar = () => <header id="header">
   </nav>
 </header>
 
-const Nosotros = () => <div id="Nosotros" className='border-5 border-bottom border-success' style={{'height':'100vh'}}>
-<div className='Content'>
+const Nosotros = () => <div id="Nosotros" className='border-5 border-bottom border-success fullHeight fullWidth'>
+<div className='Content fullHeight'>
     <video autoPlay muted loop>         
       <source src="/background1.mp4" type="video/mp4"/>       
     </video>
@@ -70,7 +70,7 @@ const Nosotros = () => <div id="Nosotros" className='border-5 border-bottom bord
             typeSpeed={15}
         />
     </div>
-    <div className='NosotrosContent'>
+    <div className='NosotrosContent fullWidth'>
       <div className='NosotrosParrafo'>
         Desde 2006, Dimensionamos, Implementamos y Administramos las soluciones tecnológicas que tu empresa necesita.
             <br/>

@@ -105,3 +105,15 @@ video {
   object-fit: cover;
   scroll-snap-align: start;
 }
+
+.fullHeight {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.fullWidth {
+  position: absolute;
+  left: 0;
+  right: 0;
+}

@@ -1,7 +1,9 @@
 #Nosotros{
     margin-top: 69px;
     position:relative;
-  }
+    height: 100vh;
+    width: 100vh;
+}
   
 .NosotrosContent {
   min-width: 500px;
@@ -30,7 +32,7 @@
   display: flex;
   width: 36vh;
   height: 27vh;
-  font-size: 38px;
+  font-size: 30px;
   line-height: 80px;
   color:red;
   background-color: #00002B;
@@ -59,11 +61,26 @@
   }
 }
 
+@media only screen and (max-width: 1280px) {
+  #Nosotros{
+    width: 107vh;
+  }
+}
+
 @media only screen and (max-width: 1224px) {
   .NosotrosParrafo { 
     width: 65%;
     margin-left: 18%;
   }
+
+  #Nosotros{
+    width: 140vh;
+  }
+
+  #Nosotros .Content{
+    width: 146vh;
+  }
+  
 
   #NostrosTextBackground{
     right: 60%;
@@ -73,6 +90,10 @@
 @media only screen and (max-width: 1129px) {
   .NosotrosParrafo { 
     width: 70%;
+  }
+
+  #Nosotros{
+    width: 110vh;
   }
 
   #NostrosTextBackground{
@@ -204,5 +225,22 @@
   .NosotrosParrafo { 
     width: 75%;
     margin-left: 12%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (max-height: 600px) {
+  #Nosotros .Content{
+    width: 188vh;
+    height: 108vh;
+  }
+
+  #Nosotros {
+    width: 188vh;
+    height: 110.5vh;
+  }
+
+  #NostrosTextBackground{
+    font-size: 23px;
+    line-height: 45px;
   }
 }
