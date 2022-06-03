@@ -12,11 +12,20 @@
 
   #Servicios{
     height: 100vh;
+    overflow: hidden;
+    scroll-snap-align: start;
   }
 
-  @media only screen and (max-width: 1024px) and (max-height: 600px) {
+  @media only screen and (min-width: 1024px) and (min-height: 600px) {
     #Servicios{
       height: 125.5vh;
+      width: 214vh;
+    }
+  }
+
+  @media only screen and (min-width: 1280px) and (min-height: 800px) {
+    #Servicios{
+      height: 134vh;
       width: 214vh;
     }
   }

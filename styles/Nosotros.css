@@ -1,8 +1,10 @@
 #Nosotros{
-    margin-top: 69px;
-    position:relative;
-    height: 100vh;
-    width: 184vh;
+  margin-top: 69px;
+  position:relative;
+  height: 100vh;
+  width: 184vh;
+  overflow: hidden;
+  scroll-snap-align: start;
 }
   
 .NosotrosContent {
@@ -237,5 +239,27 @@
   #NostrosTextBackground{
     font-size: 23px;
     line-height: 45px;
+  }
+
+  .NosotrosParrafo {
+    margin-left: 20%;
+    line-height: 30px;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (min-height: 800px) {
+  #Nosotros {
+    height: 134vh;
+    width: 214vh;
+  }
+
+  .NosotrosParrafo {
+    line-height: 42px;
+    font-size: 33px;
+  }
+
+  #Nosotros .Content{
+    height: 124.5vh;
+    width: 214vh;
   }
 }

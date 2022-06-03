@@ -1,5 +1,5 @@
 .SoporteContent {
-    width: 59%;
+    width: 50%;
     height: 10vh;
     margin-top: 80%;
     margin-left: 6%;
@@ -16,14 +16,21 @@
     height: 100vh;
   }
 
-  @media only screen and (max-width: 1024px) and (max-height: 600px) {
+
+  @media only screen and (min-width: 1024px) and (min-height: 600px) {
     #Soporte {
-      height: 125.5vh;
+      height: 134vh;
       width: 214vh;
     }
 
     .SoporteContent {
       height: 13vh;
       width: 78vh;
+    }
+  }
+
+  @media only screen and (min-width: 1280px) and (min-height: 800px) {
+    .SoporteContent {
+      width: 65%;
     }
   }

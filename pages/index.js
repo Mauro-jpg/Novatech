@@ -82,7 +82,7 @@ const Nosotros = () => <div id="Nosotros" className='border-5 border-bottom bord
 </div>
 
 const Soporte = () => <div id="Soporte" className='backgroundBlocked border-5 border-bottom border-success'>        
-<div className='col50 Content' style={{'width':'50%', 'height' : '100%'}}>
+<div className='col50 Content'>
   <video autoPlay muted loop>         
       <source src="/it.mp4" type="video/mp4"/>       
   </video>

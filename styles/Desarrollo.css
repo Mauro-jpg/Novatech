@@ -22,9 +22,20 @@
     color: #ffff;
   }
 
-  @media only screen and (max-width: 1024px) and (max-height: 600px) {
+  .DesarrolloContent .SoporteContent {
+    width: 68%;
+  }
+
+  @media only screen and (min-width: 1024px) and (min-height: 600px) {
     #Desarrollo {
       height: 125.5vh;
       width: 214vh;
     }
+  }
+
+  @media only screen and (min-width: 1280px) and (min-height: 800px) {
+    #Desarrollo {
+      height: 134vh;
+      width: 214vh;
+    } 
   }
