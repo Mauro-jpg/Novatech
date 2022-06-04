@@ -9,12 +9,10 @@
 
 .NosotrosParrafo {
   width: 100%;
-  height: calc(30px + 30%);
   display: flex;
   padding: 3vh;
   background-color: #ffff;
   color: #000;
-  
   font-size: calc(5px + 2.5vh);
   font-family: PTSansNarrow;
   position: absolute;
@@ -29,6 +27,7 @@
   line-height:calc(5px + 4vh);
   color:red;
   background-color: #00002B;
+  bottom: 70%;
   opacity: 0.7;
   position: absolute;
   margin: auto;
