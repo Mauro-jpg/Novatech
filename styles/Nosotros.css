@@ -18,7 +18,7 @@
 
 .NosotrosParrafo {
   display: flex;
-  margin: auto;
+  margin: 3vh;
   font-size: 2vh;
   font-family: PTSansNarrow;
   position: absolute;
