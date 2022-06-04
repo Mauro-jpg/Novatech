@@ -232,16 +232,6 @@ export default function Home() {
 
       <Nosotros/>
 
-      <Soporte/>
-
-      <Desarrollo />
-
-      <Servicios />
-
-      <Staff />
-
-      <Contactanos />
-
     </div>
   )
 }

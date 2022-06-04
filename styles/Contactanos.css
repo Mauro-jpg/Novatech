@@ -135,11 +135,3 @@ input[type="button" i] {
   border-color: buttonborder;
   border-image: initial;
 }
-
-
-@media only screen and (min-width: 1024px) and (min-height: 600px) {
-  #Contactanos {
-    height: 125.5vh;
-    width: 214vh;
-  }
-}

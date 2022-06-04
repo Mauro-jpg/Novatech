@@ -15,22 +15,3 @@
   #Soporte{
     height: 100vh;
   }
-
-
-  @media only screen and (min-width: 1024px) and (min-height: 600px) {
-    #Soporte {
-      height: 134vh;
-      width: 214vh;
-    }
-
-    .SoporteContent {
-      height: 13vh;
-      width: 78vh;
-    }
-  }
-
-  @media only screen and (min-width: 1280px) and (min-height: 800px) {
-    .SoporteContent {
-      width: 65%;
-    }
-  }
