@@ -70,14 +70,12 @@ const Nosotros = () => <div id="Nosotros" className='border-5 border-bottom bord
             typeSpeed={15}
         />
     </div>
-    <div className='NosotrosContent fullWidth'>
       <div className='NosotrosParrafo'>
         Desde 2006, Dimensionamos, Implementamos y Administramos las soluciones tecnológicas que tu empresa necesita.
             <br/>
             Somos tu socio tecnológico, basamos nuestros servicios en la confianza, la buena comunicación y la agilidad para brindarte soluciones flexibles, seguras y de alto 
             impacto que te ayuden a lograr tus objetivos.
       </div>
-  </div>
 </div>
 </div>
 
