@@ -19,16 +19,17 @@
 .NosotrosParrafo {
   display: flex;
   margin: 3vh;
-  font-size: 2vh;
+  
+  font-size: calc(12px + 2vh);
   font-family: PTSansNarrow;
   position: absolute;
-  line-height: 3vh;
+  line-height: calc(12px + 3vh);
 }
 
 #NostrosTextBackground{
   display: flex;
-  font-size: 3.5vh;
-  line-height: 4vh;
+  font-size: calc(12px + 3vh);
+  line-height:calc(12px + 3.5vh);
   color:red;
   background-color: #00002B;
   opacity: 0.7;
