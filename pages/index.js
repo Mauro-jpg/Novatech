@@ -85,16 +85,13 @@ const Soporte = () => <div id="Soporte" className='backgroundBlocked border-5 bo
       <source src="/it.mp4" type="video/mp4"/>       
   </video>
   <div className='SoporteContent'>
-      <div className='SoporteParrafo'>
             Concentrate en tu negocio
             <br/>
             nosotros en tu tecnología
-      </div>
     </div>
 </div>
 <div className='col50'>
-  <div className='subCol50'>
-  <div className="subCol50 wp container animated fadeInUp" data-animate="fadeInUp">
+    <div className="subCol50 wp container animated fadeInUp" data-animate="fadeInUp">
       <h3><b>Soporte T.I.</b></h3>
       <p>Te apoyamos en la administración de tu infraestructura de tecnología. Contarás con un departamento de
         informática independiente de tu estructura o tamaño. Apoyado con personal técnico capacitado y comprometido
@@ -104,7 +101,6 @@ const Soporte = () => <div id="Soporte" className='backgroundBlocked border-5 bo
       <p>Contamos con amplia experiencia en Administracion de Centros de Computos, Administración de Comunicaciones,
         Servidores, Telefonia IP y Servicio a Usuarios.</p>
     </div>
-  </div>
 </div>
 </div>
 
@@ -229,6 +225,7 @@ export default function Home() {
       <Navbar />
 
       <Nosotros/>
+      <Soporte/>
 
     </div>
   )

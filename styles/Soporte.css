@@ -1,17 +1,17 @@
 .SoporteContent {
-    width: 50%;
-    height: 10vh;
-    margin-top: 80%;
-    margin-left: 6%;
+    margin-top: 56vh;
+    margin-left: 1vh;
     padding-left: 12px;
     background-color: #000000;
     opacity: 0.9;
     border-radius: 15px;
     color: #ffff;
-    font-size: 26px;
-    font-family: monospace;  
+    font-size: calc(5px + 2vh);
+    font-family: monospace;
+    width: 40vh;
   }
 
   #Soporte{
     height: 100vh;
+    scroll-snap-align: start;
   }
