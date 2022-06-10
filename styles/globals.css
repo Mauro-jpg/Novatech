@@ -141,6 +141,10 @@ label {
   .col50TextLeft{
     padding-top: 10vh;
   }
+
+  .col50TextLeft p{
+    padding: 1px 12px !important;
+  }
 }
 
 @media screen and (max-width: 650px){
@@ -150,15 +154,11 @@ label {
   }
 
   .col50TextLeft{
-    padding-top: 21vh;
+    padding-top: 9vh;
   }
 
   .col50 h3 {
     font-size: 30px;
-  }
-
-  .col50Text {
-    height: 64%;
   }
 
   .col50Video{

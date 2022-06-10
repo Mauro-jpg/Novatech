@@ -127,7 +127,7 @@ const Desarrollo = () => <div id="Desarrollo"  className='backgroundBlocked bord
 </div>
 
 const Servicios = () => <div id="Servicios"  className='backgroundBlocked border-5 border-bottom border-success'>
-<div className='col50 Content' style={{'width':'50%', 'height' : '100%'}}>
+<div className='col50 Content'>
     <video autoPlay muted loop>         
         <source src="/satelites.mp4" type="video/mp4"/>       
     </video>
@@ -137,8 +137,8 @@ const Servicios = () => <div id="Servicios"  className='backgroundBlocked border
           </div>
       </div>
   </div>
-  <div className='col50'>
-    <div className="wp container animated fadeInUp" data-animate="fadeInUp">
+  <div className='col50 col50Text'>
+    <div >
         <h3><b>Servicios en la Nube.</b></h3>
         <p>Uno de los principales desafíos de las empresas hoy en día es asegurar la disponibilidad 
           de sus aplicacaciones de negocio, con nuestros servicios de cloud computing usted gana en tranquilidad.</p>
@@ -227,6 +227,7 @@ export default function Home() {
       <Nosotros/>
       <Soporte/>
       <Desarrollo/>
+      <Servicios/>
     </div>
   )
 }
