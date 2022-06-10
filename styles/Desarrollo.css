@@ -2,7 +2,7 @@
     background-image: url('/desarrollo.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     scroll-snap-align: start;
   }
@@ -24,4 +24,10 @@
 
   .DesarrolloContent .SoporteContent {
     width: 68%;
+  }
+
+  @media screen and (max-width: 989px){
+    .DesarrolloContent {
+      margin-top: 15%;
+    }
   }

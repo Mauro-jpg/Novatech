@@ -6,7 +6,7 @@
     opacity: 0.9;
     border-radius: 15px;
     color: #ffff;
-    font-size: calc(5px + 2vh);
+    font-size: calc(4px + 2vh);
     font-family: monospace;
     width: 40vh;
   }
@@ -14,4 +14,16 @@
   #Soporte{
     height: 100vh;
     scroll-snap-align: start;
+  }
+
+  @media screen and (max-width: 989px){
+    .SoporteContent{
+      margin-top: 37vh;
+    }
+  }
+
+  @media screen and (max-width: 650px){
+    .SoporteContent{
+      margin-top: 25vh;
+    }
   }

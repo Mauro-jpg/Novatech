@@ -72,7 +72,6 @@ a {
 }
 
 
-
 .col50 {
   width: 50%;
   height: 100vh;
@@ -85,7 +84,7 @@ a {
 .col50 p {
   font-size: calc(12px + 1vh);
   font-weight: 200;
-  padding: 15px 55px;
+  padding: 1px 55px;
   margin: 0px;
   display: block;
   margin-block-start: 1em;
@@ -128,10 +127,41 @@ label {
   width: 30vh;
 }
 
-@media screen and (max-width: 939px){
+@media screen and (max-width: 989px){
   .col50 {
-    width: 100vh;
+    width: 100%;
     height: 50vh;
     scroll-snap-align: start;
+  }
+
+  .col50 h3 {
+    padding-top: 2vh;
+  }
+
+  .col50TextLeft{
+    padding-top: 10vh;
+  }
+}
+
+@media screen and (max-width: 650px){
+  .col50 p {
+    font-size: calc(10px + 1vh);
+    padding: 1px 25px;
+  }
+
+  .col50TextLeft{
+    padding-top: 21vh;
+  }
+
+  .col50 h3 {
+    font-size: 30px;
+  }
+
+  .col50Text {
+    height: 64%;
+  }
+
+  .col50Video{
+    height: 36vh;
   }
 }

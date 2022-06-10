@@ -80,7 +80,7 @@ const Nosotros = () => <div id="Nosotros" className='border-5 border-bottom bord
 </div>
 
 const Soporte = () => <div id="Soporte" className='backgroundBlocked border-5 border-bottom border-success'>        
-<div className='col50 Content'>
+<div className='col50 col50Video Content'>
   <video autoPlay muted loop>         
       <source src="/it.mp4" type="video/mp4"/>       
   </video>
@@ -90,8 +90,8 @@ const Soporte = () => <div id="Soporte" className='backgroundBlocked border-5 bo
             nosotros en tu tecnología
     </div>
 </div>
-<div className='col50'>
-    <div className="subCol50 wp container animated fadeInUp" data-animate="fadeInUp">
+<div className='col50 col50Text'>
+    <div data-animate="fadeInUp">
       <h3><b>Soporte T.I.</b></h3>
       <p>Te apoyamos en la administración de tu infraestructura de tecnología. Contarás con un departamento de
         informática independiente de tu estructura o tamaño. Apoyado con personal técnico capacitado y comprometido
@@ -105,15 +105,15 @@ const Soporte = () => <div id="Soporte" className='backgroundBlocked border-5 bo
 </div>
 
 const Desarrollo = () => <div id="Desarrollo"  className='backgroundBlocked border-5 border-bottom border-success'>
-<div className='col50'>
-    <div className="subCol50 wp container animated fadeInUp">
+<div className='col50 col50Text'>
+    <div className="col50TextLeft">
         <h3><b>Desarrollo de Software</b></h3>
         <p>Desarrollamos soluciones en múltiples plataformas para distintos mercados y destinos.</p>
         <p>Tomemos un café y hablemos sobre tus necesidades puntuales y desarrollaremos una solución acorde, ágil, innovadora y que ayude a la mejora y automatización en tus procesos.</p>
         <p>Staff Augmentation Contamos con recursos altamente calificados para sumar a tu equipo o proyectos. Desarrolladores, Project Manager.</p>
     </div>
 </div>
-<div className='col50 Content' style={{'width':'50%', 'height' : '100%'}}>
+<div className='col50 Content' >
       <div className='DesarrolloContent'>
           <div className='SoporteContent'>
               <div className='SoporteParrafo'>
@@ -226,7 +226,7 @@ export default function Home() {
 
       <Nosotros/>
       <Soporte/>
-
+      <Desarrollo/>
     </div>
   )
 }
