@@ -55,11 +55,11 @@ const Navbar = () => <header id="header">
   </nav>
 </header>
 
+import PartoclesBackground from './particles';
+
 const Nosotros = () => <div id="Nosotros" className='border-5 border-bottom border-success'>
 <div className='Content fullHeight'>
-    <video autoPlay muted loop>         
-      <source src="/background1.mp4" type="video/mp4"/>       
-    </video>
+      <PartoclesBackground />
     <div id="NostrosTextBackground">
       <Typed
             strings={[`NUEVAS NECESIDADES,
