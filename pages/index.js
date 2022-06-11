@@ -22,32 +22,32 @@ const Navbar = () => <header id="header">
       <ul className="navbar-nav nav">
         <li className="nav-item">
           <Link href="#Nosotros">
-            <a className="nav-link text-dark">Nosotros</a>
+            <a>Nosotros</a>
           </Link>
         </li>
         <li className="nav-item">
           <Link href="#Soporte">
-            <a className="nav-link text-dark">Soporte T.I</a>
+            <a>Soporte T.I</a>
           </Link>
         </li>
         <li className="nav-item">
           <Link href="#Desarrollo">
-            <a className="nav-link text-dark">Desarrollo</a>
+            <a>Desarrollo</a>
           </Link>
         </li>
         <li className="nav-item">
           <Link href="#Servicios">
-            <a className="nav-link text-dark">Servicios en la Nube</a>
+            <a>Servicios en la Nube</a>
           </Link>
         </li>
         <li className="nav-item">
           <Link href="#Staff">
-            <a className="nav-link text-dark">Staff Augmentation</a>
+            <a >Staff Augmentation</a>
           </Link>
         </li>
         <li className="nav-item">
           <Link href="#Contactanos">
-            <a className="nav-link text-dark">Contactanos</a>
+            <a >Contactanos</a>
           </Link>
         </li>
       </ul>

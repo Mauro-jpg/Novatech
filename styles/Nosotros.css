@@ -5,6 +5,14 @@
   width: 100%;
   overflow: hidden;
   scroll-snap-align: start;
+
+
+  background-image: url('/desarrollo.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  scroll-snap-align: start;
 }
 
 .NosotrosParrafo {
@@ -25,10 +33,11 @@
   display: flex;
   font-size: calc(5px + 3.5vh);
   line-height:calc(5px + 4vh);
-  color:red;
+  color:#ffff;
+  
   background-color: #00002B;
+  opacity: 0.8;
   bottom: 70%;
-  opacity: 0.7;
   position: absolute;
   margin: auto;
   padding: 10px;

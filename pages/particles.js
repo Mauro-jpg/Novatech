@@ -22,8 +22,10 @@ const ParticlesBackground = () => {
       options={{
         background: {
           color: {
-            value: "#0d47a1",
+            value: "#0000",
           },
+          image: "url('/pc.jpeg')",
+          size: "cover"
         },
         fpsLimit: 120,
         interactivity: {
@@ -43,8 +45,8 @@ const ParticlesBackground = () => {
               quantity: 4,
             },
             repulse: {
-              distance: 200,
-              duration: 0.4,
+              distance: 50,
+              duration: 1,
             },
           },
         },
@@ -69,7 +71,7 @@ const ParticlesBackground = () => {
               default: "bounce",
             },
             random: false,
-            speed: 6,
+            speed: 2,
             straight: false,
           },
           number: {
@@ -77,10 +79,10 @@ const ParticlesBackground = () => {
               enable: true,
               area: 800,
             },
-            value: 80,
+            value: 90,
           },
           opacity: {
-            value: 0.5,
+            value: 0.4,
           },
           shape: {
             type: "circle",
