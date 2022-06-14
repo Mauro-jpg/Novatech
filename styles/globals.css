@@ -79,6 +79,9 @@ a {
   overflow: hidden;
   display: inline-block;
   float: left;
+  position: relative;
+  background-color: #ffff;
+
 }
 
 .col50 p {

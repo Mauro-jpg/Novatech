@@ -5,14 +5,7 @@
   width: 100%;
   overflow: hidden;
   scroll-snap-align: start;
-
-
-  background-image: url('/desarrollo.jpeg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  scroll-snap-align: start;
+  background-attachment:fixed;
 }
 
 .NosotrosParrafo {

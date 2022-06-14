@@ -25,7 +25,10 @@ const ParticlesBackground = () => {
             value: "#0000",
           },
           image: "url('/pc.jpeg')",
-          size: "cover"
+          size: "cover",
+          height: "100vh",
+          repeat: "no-repeat",
+          overflow: "scroll"
         },
         fpsLimit: 120,
         interactivity: {

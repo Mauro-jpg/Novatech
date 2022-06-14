@@ -59,7 +59,9 @@ import PartoclesBackground from './particles';
 
 const Nosotros = () => <div id="Nosotros" className='border-5 border-bottom border-success'>
 <div className='Content fullHeight'>
+    <div style={{"height":"100vh"}}>
       <PartoclesBackground />
+    </div>
     <div id="NostrosTextBackground">
       <Typed
             strings={[`NUEVAS NECESIDADES,
@@ -90,7 +92,7 @@ const Soporte = () => <div id="Soporte" className='backgroundBlocked border-5 bo
             nosotros en tu tecnología
     </div>
 </div>
-<div className='col50 col50Text'>
+<div className='col50Left col50 col50Text'>
     <div data-animate="fadeInUp">
       <h3><b>Soporte T.I.</b></h3>
       <p>Te apoyamos en la administración de tu infraestructura de tecnología. Contarás con un departamento de
