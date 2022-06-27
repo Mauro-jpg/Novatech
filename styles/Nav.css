@@ -1,5 +1,4 @@
 nav {
-    background-color : #21779c;
     max-height: 96px;
     overflow: hidden;
   }
@@ -73,6 +72,11 @@ nav {
   }
 
 
+  html:not([data-scroll='0']) nav {
+    background-color : #21779c;
+  }
+
+
   @media only screen and (max-width: 1147px) {
     .nav a {
       font-size: 14px;
@@ -108,3 +112,4 @@ nav {
       flex-wrap: nowrap !important;
     }
   }
+
