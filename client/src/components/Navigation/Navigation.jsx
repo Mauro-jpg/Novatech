@@ -34,7 +34,7 @@ class Navigation extends React.Component {
                 mainNavLinks.forEach(link => {
                 let section = document.querySelector(link.hash);
             
-                    if (
+                   if ( section &&
                         section.offsetTop <= fromTop &&
                         section.offsetTop + section.offsetHeight > fromTop
                     ) {
@@ -69,7 +69,7 @@ class Navigation extends React.Component {
                     <AnchorLink onClick={this.toggleNavbar} offset={() => 85} className="nav-link" href="#home">Nosotros</AnchorLink>
                 </li>
                 <li className="nav-item">
-                    <AnchorLink onClick={this.toggleNavbar} offset={() => 85} className="nav-link" href="#about">Soporte T.I</AnchorLink>
+                    <AnchorLink onClick={this.toggleNavbar} offset={() => 85} className="nav-link" href="#it">Soporte T.I</AnchorLink>
                 </li>
                 <li className="nav-item">
                     <AnchorLink onClick={this.toggleNavbar} offset={() => 85} className="nav-link" href="#team">Desarrollo</AnchorLink>

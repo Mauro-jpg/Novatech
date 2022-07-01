@@ -2828,3 +2828,12 @@ Go Top CSS
   visibility: visible;
 }
 /*# sourceMappingURL=style.css.map */
+
+video {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  height: 100%;
+  width: 90%;
+  object-fit: cover;
+}

@@ -4,36 +4,32 @@ import { Link } from 'react-router-dom';
 class About extends React.Component {
     render(){
         return (
-            <section className="strategy-area">
-                <div className="container-fluid p-0">
-                    <div className="row ">
-                        <div className="col-lg-6 col-md-5">
-                            <div className="image"></div>
-                        </div>
-                        
-                        <div className="col-lg-6 col-md-7">
-                            <div className="about-strategy ptb-80">
-                                <div className="section-title">
-                                    <h4>Highly Creative Solutions</h4>
-                                    <h2>About <span>Strategy</span></h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div id='it' style={{"margin-top" : "50px"}}>
+                <section className="strategy-area">
+                    <div className="container-fluid p-0">
+                        <div className="row ">
+                            <div className="col-lg-6 col-md-5 col50">
+                                <video autoPlay muted loop>         
+                                    <source src="/it.mp4" type="video/mp4"/>       
+                                </video>
+                            </div>
+                            
+                            <div className="col-lg-6 col-md-7">
+                                <div className="about-strategy ptb-80">
+                                    <div className="section-title">
+                                        <h2><span>Soporte I.T</span></h2>
+                                        <p>Te apoyamos en la administración de tu infraestructura de tecnología. Contarás con un departamento de informática independiente de tu estructura o tamaño. Apoyado con personal técnico capacitado y comprometido para que todo funcione correctamente.
+
+    Te ofrecemos asesoría en tecnología para asegurarte que tu empresa estará actualizada y aplicando las mejores herramientas y soluciones para tu negocio.
+
+    Contamos con amplia experiencia en Administracion de Centros de Computos, Administración de Comunicaciones, Servidores, Telefonia IP y Servicio a Usuarios.</p>
+                                    </div>
                                 </div>
-                                
-                                <ul>
-                                    <li><i className="fa fa-check"></i>Creative Design</li>
-                                    <li><i className="fa fa-check"></i>Retina Ready</li>
-                                    <li><i className="fa fa-check"></i>Responsive Design</li>
-                                    <li><i className="fa fa-check"></i>Modern Design</li>
-                                    <li><i className="fa fa-check"></i>Awesome Design</li>
-                                    <li><i className="fa fa-check"></i>Digital Marketing & Branding</li>
-                                </ul>
-                                
-                                <Link to="#" className="btn btn-primary">Read More</Link>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
+            </div>
         );
     }
 }

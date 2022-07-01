@@ -1,6 +1,5 @@
 import React from 'react';
 import MainBanner from '../PageBanners/MainBannerEleven';
-import Welcome from '../Common/Welcome';
 import About from '../Common/About';
 import Strategy from '../Common/Strategy';
 import WhoWeAre from '../Common/WhoWeAre';
