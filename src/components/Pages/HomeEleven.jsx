@@ -32,21 +32,6 @@ class HomeEleven extends React.Component {
                 {/* About Area */}
                 <About />
 
-                {/* Strategy Area */}
-                <Strategy />
-
-                {/* Who We Are Area */}
-                <WhoWeAre />
-
-                {/* CTR Area */}
-                <Ctr />
-
-                {/* Skill Area */}
-                <Skill />
-
-                {/* Fact Area */}
-                <Funfact />
-
                 {/* Team Area */}
                 <Team />
 

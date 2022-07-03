@@ -2,7 +2,7 @@
 	width: 3.5rem;
 	height: 3.5rem;
 	cursor: pointer;
-	background: url('/logo.png') no-repeat 100% 50%;
+	background: url('../images/logo.png') no-repeat 100% 50%;
 	background-color: #ffff;
 	background-size: 100%;
 	border-radius: 2.25rem;
