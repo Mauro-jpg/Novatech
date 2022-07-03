@@ -100,12 +100,11 @@ class Contact extends React.Component {
                       
                             <iframe 
                                 title="Google Map" 
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d699.1289800297188!2d18.077942675805485!3d59.32663213203372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9d5641a77669%3A0xe02744b36aab9f53!2sExercisplan%204%2C%20111%2049%20Stockholm%2C%20Sweden!5e0!3m2!1sen!2sbd!4v1635073543164!5m2!1sen!2sbd" 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.096315031995!2d-56.2029501850252!3d-34.90403238095641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f802a2b33be7d%3A0xe259f09f60608e6a!2s25%20de%20Mayo%20747%2C%2011000%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses-419!2suy!4v1656889314288!5m2!1ses-419!2suy" 
                                 width="100%" 
                                 height="392" 
                                 loading="lazy"
                             ></iframe>
-                            
                             <div className="contact-info">
                                 <ul>
                                     <li>
@@ -113,15 +112,11 @@ class Contact extends React.Component {
                                     </li>
                                     <li>
                                         <i className="fa fa-envelope"></i> 
-                                        <a href="mailto:addax@gmail.com">addax@gmail.com</a>
+                                        <a href="mailto:info@novatech.com.uy">info@novatech.com.uy</a>
                                     </li>
                                     <li>
                                         <i className="fa fa-phone"></i> 
-                                        <a href="tel:124412-2445515">(+124)412-2445515</a>
-                                    </li>
-                                    <li>
-                                        <i className="fa fa-fax"></i> 
-                                        <a href="tel:617-241-60055">617-241-60055</a>
+                                        <a href="tel:22049488">22049488</a>
                                     </li>
                                 </ul>
                             </div>
