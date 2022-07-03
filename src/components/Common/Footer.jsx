@@ -8,7 +8,7 @@ class Footer extends React.Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12 col-md-12">
-                            <h4><Link to="/"><span>a</span>ddax</Link></h4>
+                            <h4 style={{display:"inline-flex"}}><Link to="/"><div className='minimalLogo'></div></Link></h4>
                             <ul>
                                 <li><Link to="https://www.linkedin.com/company/novatech-uruguay/" className="fa fa-linkedin" target="_blank"></Link></li>
                             </ul>
