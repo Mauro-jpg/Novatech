@@ -35,9 +35,6 @@ class HomeEleven extends React.Component {
                 {/* Team Area */}
                 <Team />
 
-                {/* How We Work */}
-                <HowWeWork />
-
                 {/* Services Area */}
                 <Services />
 
@@ -46,24 +43,6 @@ class HomeEleven extends React.Component {
 
                 {/* Work Area */}
                 <Work />
-
-                {/* Price Area */}
-                <Price />
-
-                {/* FAQ Area */}
-                <Faq />
-
-                {/* Testimonials Area */}
-                <Testimonial />
-                
-                {/* Blog Area */}
-                <Blog />
-
-                {/* Partner Area */}
-                <Partner />
-
-                {/* Subscribe Area */}
-                <Subscribe />
 
                 {/* Contact Area */}
                 <Contact />
