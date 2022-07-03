@@ -90,9 +90,7 @@ class Contact extends React.Component {
             <section id="contact" className="contact-area ptb-80 bg-f6f6f6">
                 <div className="container">
                     <div className="section-title">
-                        <h4>Get in Touch</h4>
-                        <h2>Let's <span>Contact</span> Us</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <h2><span>Contactanos</span></h2>
                     </div>
                     
                     <div className="row">

@@ -34,7 +34,7 @@ const options = {
 class Team extends React.Component {
     render(){
         return (
-            <section id="team" className="tab-panel">
+            <section id="team" className="tab-panel" style={{"margin-top" : "100px"}}>
                                         <div className="row">
                                             <div className="col-lg-6 col-md-6">
                                                 <div className="section-title">
