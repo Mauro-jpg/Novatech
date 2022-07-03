@@ -124,12 +124,12 @@ class Contact extends React.Component {
                         
                         <div className="col-lg-6 col-md-12">
                             <div className="contact-form">
-                                <h4>Stay Connected</h4>
+                                <h4>Mantente conectado</h4>
                                 <form id="contactForm" onSubmit={this.onSubmit}>
                                     <div className="row">
                                         <div className="col-lg-12 col-md-6">
                                             <div className="form-group">
-                                                <label htmlFor="name">Name</label>
+                                                <label htmlFor="name">Nombre</label>
                                                 <input 
                                                     type="text" 
                                                     className="form-control" 
@@ -161,7 +161,7 @@ class Contact extends React.Component {
 
                                         <div className="col-lg-12 col-md-12">
                                             <div className="form-group">
-                                                <label htmlFor="number">Phone Number</label>
+                                                <label htmlFor="number">Numero de Telefono</label>
                                                 <input 
                                                     type="text" 
                                                     className="form-control" 
@@ -177,7 +177,7 @@ class Contact extends React.Component {
 
                                         <div className="col-lg-12 col-md-12">
                                             <div className="form-group">
-                                                <label htmlFor="message">Message</label>
+                                                <label htmlFor="message">Mensaje</label>
                                                 <textarea 
                                                     name="message" 
                                                     className="form-control" 
@@ -193,7 +193,7 @@ class Contact extends React.Component {
                                         </div>
 
                                         <div className="col-lg-12 col-md-12">
-                                            <button type="submit" className="btn btn-primary">Send Message</button>
+                                            <button type="submit" className="btn btn-primary">Enviar Mensaje</button>
                                             {this.successMessage()} 
                                         </div>
                                     </div>
