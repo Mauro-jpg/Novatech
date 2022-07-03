@@ -7,7 +7,6 @@ import Work from '../Common/Work';
 import Contact from '../Common/Contact';
 import Footer from '../Common/Footer';
 import GoTop from '../Common/GoTop';
-import DemoSidebar from '../Common/DemoSidebar/DemoSidebar';
  
 class HomeEleven extends React.Component {
     render(){
@@ -35,8 +34,6 @@ class HomeEleven extends React.Component {
                 <Footer />
                 <GoTop scrollStepInPx="50" delayInMs="16.66" />
                 
-                {/* Demo Sidebar */}
-                <DemoSidebar />
             </>
         );
     }
