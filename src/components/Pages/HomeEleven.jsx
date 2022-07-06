@@ -1,9 +1,9 @@
 import React from 'react';
 import MainBanner from '../PageBanners/MainBannerEleven';
-import About from '../Common/About';
-import Team from '../Common/Team';
+import IT from '../Common/IT';
+import Develop from '../Common/Develop';
 import Services from '../Common/Services';
-import Work from '../Common/Work';
+import Staff from '../Common/Work';
 import Contact from '../Common/Contact';
 import Footer from '../Common/Footer';
 import GoTop from '../Common/GoTop';
@@ -15,17 +15,17 @@ class HomeEleven extends React.Component {
                 {/* Main Banner */}
                 <MainBanner />
 
-                {/* About Area */}
-                <About />
-
-                {/* Team Area */}
-                <Team />
+                {/* Developer Area */}
+                <Develop />
+    
+                {/* Staff Area */}
+                <Staff />
 
                 {/* Services Area */}
                 <Services />
 
-                {/* Work Area */}
-                <Work />
+                {/* IT Area */}
+                <IT />
 
                 {/* Contact Area */}
                 <Contact />

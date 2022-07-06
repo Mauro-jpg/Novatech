@@ -69,16 +69,16 @@ class Navigation extends React.Component {
                     <AnchorLink onClick={this.toggleNavbar} offset={() => 85} className="nav-link" href="#home">Nosotros</AnchorLink>
                 </li>
                 <li className="nav-item">
-                    <AnchorLink onClick={this.toggleNavbar} offset={() => 85} className="nav-link" href="#it">Soporte T.I</AnchorLink>
+                    <AnchorLink onClick={this.toggleNavbar} offset={() => 85} className="nav-link" href="#team">Desarrollo</AnchorLink>
                 </li>
                 <li className="nav-item">
-                    <AnchorLink onClick={this.toggleNavbar} offset={() => 85} className="nav-link" href="#team">Desarrollo</AnchorLink>
+                    <AnchorLink onClick={this.toggleNavbar} offset={() => 85} className="nav-link" href="#work">Staff augmentation</AnchorLink>
                 </li>
                 <li className="nav-item">
                     <AnchorLink onClick={this.toggleNavbar} offset={() => 85} className="nav-link" href="#services">Servicios en la nube</AnchorLink>
                 </li>
                 <li className="nav-item">
-                    <AnchorLink onClick={this.toggleNavbar} offset={() => 85} className="nav-link" href="#work">Staff augmentation</AnchorLink>
+                    <AnchorLink onClick={this.toggleNavbar} offset={() => 85} className="nav-link" href="#it">Soporte T.I</AnchorLink>
                 </li>
                 <li className="nav-item">
                     <AnchorLink onClick={this.toggleNavbar} offset={() => 85} className="nav-link" href="#contact">Contactanos</AnchorLink>

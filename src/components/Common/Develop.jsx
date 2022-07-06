@@ -31,7 +31,7 @@ const options = {
     }
 }
  
-class Team extends React.Component {
+class Develop extends React.Component {
     render(){
         return (
             <section id="team" className="tab-panel" style={{"margin-top" : "100px"}}>
@@ -59,4 +59,4 @@ Staff Augmentation Contamos con recursos altamente calificados para sumar a tu e
     }
 }
  
-export default Team;
+export default Develop;

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
  
-class About extends React.Component {
+class IT extends React.Component {
     render(){
         return (
             <div id='it' style={{"margin-top" : "50px"}}>
@@ -34,4 +34,4 @@ class About extends React.Component {
     }
 }
  
-export default About;
+export default IT;
