@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import imgTwo from '../../assets/images/different-img2.jpg';
 
 const options = {
     loop: true,
@@ -34,7 +33,7 @@ const options = {
 class Develop extends React.Component {
     render(){
         return (
-            <section id="team" className="tab-panel" style={{"margin-top" : "100px"}}>
+            <section id="team" className="tab-panel" style={{"margin-top" : "100px", height: "60vh"}}>
                                         <div className="row">
                                             <div className="col-lg-6 col-md-6">
                                                 <div className="section-title">
@@ -48,10 +47,8 @@ Staff Augmentation Contamos con recursos altamente calificados para sumar a tu e
                                                 </div>
                                             </div>
                                             
-                                            <div className="col-lg-6 col-md-6">
-                                                <div className="why-we-different-img">
-                                                    <img src={imgTwo} alt="img" />
-                                                </div>
+                                            <div className="col-lg-6 col-md-6 why-we-different-img" style={{height: "60vh"}}>
+                                                    <div className="image"></div>
                                             </div>
                                         </div>
                                     </section>

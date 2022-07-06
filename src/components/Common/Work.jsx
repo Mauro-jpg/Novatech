@@ -1,8 +1,7 @@
 import React from 'react';
 import 'react-image-lightbox/style.css';
-import { Link } from 'react-router-dom';
  
-class Work extends React.Component {
+class Staff extends React.Component {
     state = {
         photoIndex: 0,
         isOpen: false
@@ -39,4 +38,4 @@ class Work extends React.Component {
     }
 }
  
-export default Work;
+export default Staff;

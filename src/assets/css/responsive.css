@@ -732,7 +732,22 @@
   }
   .why-we-different-img {
     margin-top: 58px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
   }
+
+  .why-we-different-img .image{
+    background-image: url("../images/desarrollo.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+  }
+
   .shorting-menu {
     display: block;
     padding: 15px 15px;
