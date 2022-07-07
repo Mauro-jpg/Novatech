@@ -15,12 +15,18 @@ class Navigation extends React.Component {
 
     componentDidMount() {
         let elementId = document.getElementById("navbar");
+        let logo = document.getElementById("logo");
+
         document.addEventListener("scroll", () => {
             if (window.scrollY > 170) {
                 elementId.classList.add("is-sticky");
+                logo.classList.add("logoColor");
+                logo.classList.remove("logoWhite");
                 window.history.pushState("", document.title, window.location.pathname);
             } else {
                 elementId.classList.remove("is-sticky");
+                logo.classList.remove("logoColor");
+                logo.classList.add("logoWhite");
             }
         });
         window.scrollTo(0, 0);
@@ -98,7 +104,7 @@ class Navigation extends React.Component {
                         className="navbar-brand" 
                         href="/"
                     >
-                        <div className='logo'>
+                        <div id="logo">
                             <div>
                             </div>
                         </div>
