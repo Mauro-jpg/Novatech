@@ -104,7 +104,7 @@ class Navigation extends React.Component {
                         className="navbar-brand" 
                         href="/"
                     >
-                        <div id="logo">
+                        <div id="logo" className='logoWhite'>
                             <div>
                             </div>
                         </div>
