@@ -106,7 +106,7 @@ class Contact extends React.Component {
                             <div className="contact-info">
                                 <ul>
                                     <li>
-                                        <i className="fa fa-map-marker"></i> Exercisplan 4, 111 49 Stockholm, Sweden
+                                        <i className="fa fa-map-marker"></i> 25 de Mayo 747
                                     </li>
                                     <li>
                                         <i className="fa fa-envelope"></i> 
@@ -114,7 +114,7 @@ class Contact extends React.Component {
                                     </li>
                                     <li>
                                         <i className="fa fa-phone"></i> 
-                                        <a href="tel:22049488">22049488</a>
+                                        <a href="tel:+598 2204 9488">+598 2204 9488</a>
                                     </li>
                                 </ul>
                             </div>

@@ -23,6 +23,8 @@ class IT extends React.Component {
     Te ofrecemos asesoría en tecnología para asegurarte que tu empresa estará actualizada y aplicando las mejores herramientas y soluciones para tu negocio.
 
     Contamos con amplia experiencia en Administracion de Centros de Computos, Administración de Comunicaciones, Servidores, Telefonia IP y Servicio a Usuarios.</p>
+                                        <br></br>
+                                        <h4 style={{color:"#298ACB"}}><b>Dimensionamos, Implementamos y Administramos tu infraestructura de T.I.</b></h4>
                                     </div>
                                 </div>
                             </div>
