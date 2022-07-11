@@ -2857,3 +2857,18 @@ video {
   width: 100%;
   object-fit: cover;
 }
+
+.DesarrolloContent {
+  min-width: 500px;
+  width: 59%;
+  height: 10vh;
+  margin-top: 58%;
+  margin-left: 11%;
+  opacity: 0.9;
+  border-radius: 15px;
+  color: #ffff;
+}
+
+.DesarrolloContent .SoporteContent {
+  width: 68%;
+}

@@ -26,7 +26,7 @@ class Staff extends React.Component {
                                         Necesitas darle un impulso a tu proyecto?<br/>
                                         Ponerte al día con tus objetivos de desarrollo?<br/>
                                         Tienes un proyecto que no puedes atenderlo únicamente con tu personal interno?<br/><br/>
-                                        Novatech es la extensión que tu equipo necesita.</p>
+                                        <h4>Novatech es la extensión que tu equipo necesita.</h4></p>
                                     </div>                                    
                                 </div>
                             </div>
