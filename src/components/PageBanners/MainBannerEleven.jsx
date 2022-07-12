@@ -47,7 +47,7 @@ class MainBanner extends React.Component {
                                         <ReactTypingEffect
                                                 text={['NECESIDADES.', 'TECNOLOGÍAS.', 'SOLUCIONES.']}
                                                 speed={100}
-                                                eraseDelay={100}
+                                                eraseDelay={1100}
                                             />
                                         </h1>
                                         <p>Desde 2006, Dimensionamos, Implementamos y Administramos las soluciones tecnológicas que tu empresa necesita.
