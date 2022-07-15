@@ -1,34 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-
-const options = {
-    loop: true,
-    autoplay:true,
-    nav: false,
-    margin: 30,
-    mouseDrag: true,
-    autoplayHoverPause: true,
-    responsiveClass: true,
-    dots: true,
-    navText: [
-        "<i class='fa fa-angle-left'></i>",
-        "<i class='fa fa-angle-right'></i>"
-    ],
-    responsive: {
-        0: {
-            items: 1
-        },
-        576: {
-            items: 2
-        },
-        768: {
-            items: 2
-        },
-        1024: {
-            items: 3
-        }
-    }
-}
  
 class Develop extends React.Component {
     render(){

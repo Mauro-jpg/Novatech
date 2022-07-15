@@ -10,8 +10,8 @@ class Footer extends React.Component {
                         <div className="col-lg-12 col-md-12">
                             <h4 style={{display:"inline-flex"}}><Link to="/"><div className='minimalLogo'></div></Link></h4>
                             <ul>
-                                <li><a href="https://www.facebook.com/novatechuy" className="fa fa-facebook" target="_blank"></a></li>
-                                <li><a href="https://www.linkedin.com/company/novatech-uruguay/" className="fa fa-linkedin" target="_blank"></a></li>
+                                <li><a href="https://www.facebook.com/novatechuy" className="fa fa-facebook" target="_blank" rel="noopener noreferrer">F</a></li>
+                                <li><a href="https://www.linkedin.com/company/novatech-uruguay/" className="fa fa-linkedin" target="_blank" rel="noopener noreferrer">L</a></li>
                             </ul>
                             <p>Copyright <i className="fa fa-copyright"></i> 2022 All Rights Reserved.</p>
                         </div>
