@@ -15,10 +15,8 @@ Ofrecemos servicios de respaldos en la nube, servicios de servidores 100% en la 
                                                 </div>
                                             </div>
                                             
-                                            <div className="col-lg-6 col-md-6 services" style={{height: "60vh"}}>
-                                                    <video autoPlay muted loop>         
-                                                        <source src="/satelites.mp4" type="video/mp4"/>       
-                                                    </video>
+                                            <div className="col50 col-md-6 service">
+                                                    <div className="image"></div>
                                             </div>
                                         </div>
                                     </section>

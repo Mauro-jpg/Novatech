@@ -47,7 +47,7 @@ Staff Augmentation Contamos con recursos altamente calificados para sumar a tu e
                                                 </div>
                                             </div>
                                             
-                                            <div className="col-lg-6 col-md-6 why-we-different-img">
+                                            <div className="col50 why-we-different-img">
                                                     <div className="image"></div>
                                             </div>
                                         </div>
