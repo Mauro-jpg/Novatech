@@ -1,6 +1,7 @@
 {
-  "name": "addax",
+  "name": "novatech",
   "version": "1.8.0",
+  "homepage" : "http://mauro-js.github.io/Novatech",
   "private": true,
   "dependencies": {
     "http-proxy-middleware": "^0.19.2",
