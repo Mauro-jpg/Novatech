@@ -2874,7 +2874,7 @@ video {
 
 .col50 {
   width: 50%;
-  height: 50vh;
+  height: 60vh;
   line-height:calc(5px + 2vh);
   overflow: hidden;
   display: inline-block;
