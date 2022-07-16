@@ -1,5 +1,4 @@
 import React from 'react';
-import 'react-image-lightbox/style.css';
  
 class Staff extends React.Component {
     state = {

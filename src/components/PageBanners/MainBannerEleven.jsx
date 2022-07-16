@@ -1,41 +1,14 @@
 import React from 'react';
-import Particles from 'react-particles-js';
 import ReactTypingEffect from 'react-typing-effect';
 
-const particleOpt = {
-    particles: {
-        number: {
-            value: 100,
-            density: {
-                enable: true,
-                value_area: 800
-            }
-        },
-        color: {
-            value: '#fff'
-        },
-        size: {
-            value: 3
-        }
-    },
-    interactivity: {
-        events: {
-            onhover: {
-                enable: true,
-                mode: "repulse"
-            }
-        }
-    }
-}
+import PartoclesBackground from './particles';
  
 class MainBanner extends React.Component {
     render(){
         return (
             <div id="home" className="main-banner item-bg-one">
                 <div className="creative-banner-three"></div>
-                <Particles
-                    params={{...particleOpt}}
-                />
+                <PartoclesBackground />
                 <div className="d-table">
                     <div className="d-table-cell">
                         <div className="container">

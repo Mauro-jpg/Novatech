@@ -1,6 +1,4 @@
 import './assets/css/bootstrap.min.css';
-import 'react-modal-video/css/modal-video.css';
-import 'react-accessible-accordion/dist/fancy-example.css';
 import './assets/css/font-awesome.min.css';
 import './assets/css/animate.css';
 import './assets/css/style.css';
