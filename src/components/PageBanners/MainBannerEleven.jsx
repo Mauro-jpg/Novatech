@@ -7,8 +7,8 @@ class MainBanner extends React.Component {
     render(){
         return (
             <div id="home" className="main-banner item-bg-one">
-                <div className="creative-banner-three"></div>
                 <PartoclesBackground />
+                <div className="creative-banner-three"></div>
                 <div className="d-table">
                     <div className="d-table-cell">
                         <div className="container">

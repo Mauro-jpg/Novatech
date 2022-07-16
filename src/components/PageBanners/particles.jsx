@@ -21,16 +21,7 @@ const ParticlesBackground = () => {
       init={particlesInit}
       loaded={particlesLoaded}
       options={{
-        background: {
-          color: {
-            value: "#0000",
-          },
-          image: "url('/pc.jpeg')",
-          size: "cover",
-          height: "100vh",
-          repeat: "no-repeat",
-          overflow: "scroll"
-        },
+        position: "absolute",
         fpsLimit: 120,
         interactivity: {
           events: {
