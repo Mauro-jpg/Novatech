@@ -1,7 +1,7 @@
 {
   "name": "novatech",
   "version": "1.8.0",
-  "homepage": "http://mauro-js.github.io/Novatech",
+  "homepage": "http://mauro-js.github.io/Novatech/",
   "private": true,
   "dependencies": {
     "gh-pages": "^4.0.0",
