@@ -1,7 +1,7 @@
 {
   "name": "novatech",
   "version": "1.8.0",
-  "homepage": "https://mauro-js.github.io/Novatech/",
+  "homepage": "https://novatech.vercel.app/",
   "private": true,
   "dependencies": {
     "gh-pages": "^4.0.0",
