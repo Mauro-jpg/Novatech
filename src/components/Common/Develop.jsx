@@ -3,9 +3,9 @@ import React from 'react';
 class Develop extends React.Component {
     render(){
         return (
-            <section id="team" className="tab-panel" style={{"margin-top" : "100px", height: "60vh", backgroundColor : "white"}}>
+            <section id="team" className="tab-panel" style={{"margin-top" : "100px", backgroundColor : "white"}}>
                                         <div className="row">
-                                            <div className="col-lg-6 col-md-6">
+                                            <div className="col-lg-6 col-md-6 fullwMobile">
                                                 <div className="section-title">
                                                 <h2><span>Desarrollo de Software</span></h2>
                                                     <p>Desarrollamos soluciones en múltiples plataformas para distintos mercados y destinos.
@@ -17,7 +17,7 @@ Staff Augmentation Contamos con recursos altamente calificados para sumar a tu e
                                                 </div>
                                             </div>
                                             
-                                            <div className="col50 why-we-different-img">
+                                            <div className="col50 why-we-different-img noMobileShow">
                                                     <div className="image"></div>
                                             </div>
                                         </div>

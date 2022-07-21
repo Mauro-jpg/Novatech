@@ -11,12 +11,12 @@ class Services extends React.Component {
                                                     <p>Uno de los principales desafíos de las empresas hoy en día es asegurar la disponibilidad de sus aplicacaciones de negocio, con nuestros servicios de cloud computing usted gana en tranquilidad.
 
 Ofrecemos servicios de respaldos en la nube, servicios de servidores 100% en la nube y contingencia, lo que asegura la continuidad de su negocio pase lo que pase.</p>
-                                                        <br/><br/><h4>Te conectamos con la nube</h4>                                                
+                                                        <br/><br/><p style={{color:"#298ACB"}} ><b>Te conectamos con la nube</b></p>                                                
                                                 </div>
                                             </div>
                                             
                                             <div className="col50 col-md-6 service">
-                                                    <div className="image"></div>
+                                                    <div className="image noSizeMobile noBagroundPositionMobile"></div>
                                             </div>
                                         </div>
                                     </section>

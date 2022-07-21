@@ -12,8 +12,8 @@ class Staff extends React.Component {
                 <section className="strategy-area">
                     <div className="container-fluid p-0">
                         <div className="row ">
-                            <div className="col-lg-6 col-md-5">
-                                <div className="image"></div>
+                            <div className="col-lg-6 col-md-5 ">
+                                <div className="image noBagroundPositionMobile"></div>
                             </div>
                             
                             <div className="col-lg-6 col-md-7">
@@ -25,7 +25,7 @@ class Staff extends React.Component {
                                         Necesitas darle un impulso a tu proyecto?<br/>
                                         Ponerte al día con tus objetivos de desarrollo?<br/>
                                         Tienes un proyecto que no puedes atenderlo únicamente con tu personal interno?<br/><br/>
-                                        <h4>Novatech es la extensión que tu equipo necesita.</h4></p>
+                                        <p style={{color:"#298ACB"}}><b>Novatech es la extensión que tu equipo necesita.</b></p></p>
                                     </div>                                    
                                 </div>
                             </div>

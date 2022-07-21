@@ -16,14 +16,14 @@ class IT extends React.Component {
                             <div className="col-lg-6 col-md-7">
                                 <div className="about-strategy ptb-80">
                                     <div className="section-title">
-                                        <h2><span>Soporte IT</span></h2>
+                                        <h2><span>Soporte T.I</span></h2>
                                         <p>Te apoyamos en la administración de tu infraestructura de tecnología. Contarás con un departamento de informática independiente de tu estructura o tamaño. Apoyado con personal técnico capacitado y comprometido para que todo funcione correctamente.
 
     Te ofrecemos asesoría en tecnología para asegurarte que tu empresa estará actualizada y aplicando las mejores herramientas y soluciones para tu negocio.
 
     Contamos con amplia experiencia en Administracion de Centros de Computos, Administración de Comunicaciones, Servidores, Telefonia IP y Servicio a Usuarios.</p>
                                         <br></br>
-                                        <h4 style={{color:"#298ACB"}}><b>Dimensionamos, Implementamos y Administramos tu infraestructura de T.I.</b></h4>
+                                        <p style={{color:"#298ACB"}}><b>Dimensionamos, implementamos y administramos tu infraestructura de T.I.</b></p>
                                     </div>
                                 </div>
                             </div>
