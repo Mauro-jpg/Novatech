@@ -2917,7 +2917,7 @@ video {
     width: 100% !important;
   }
   .noBagroundPositionMobile{
-    background-position: 0%;
+    background-position: 0% !important;
   }
   .noSizeMobile {
     background-size: cover !important;
