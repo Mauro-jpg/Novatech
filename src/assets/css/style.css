@@ -218,7 +218,6 @@ img {
 }
 
 .section-title p {
-  max-width: 635px;
   margin-top: -7px;
 }
 
@@ -992,9 +991,6 @@ Strategy Area CSS
   height: 100%;
 }
 
-.strategy-area .row div {
-  position: relative;
-}
 
 .about-strategy {
   padding-left: 25px;
@@ -2917,16 +2913,42 @@ video {
     width: 100% !important;
   }
   .noBagroundPositionMobile{
-    background-position: 0% !important;
+    background-position: 50% !important;
+    background-attachment: unset !important;
   }
   .noSizeMobile {
     background-size: cover !important;
-    background-attachment: inherit !important;
   }
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 912px) {
+
   .col50 {
     width: 100%;
   }
+
+  .invertedMobile {
+    display: flex;
+  }
+  
+  .invertedMobile > * {
+    order: 0;
+    margin: 0px 2px;
+  }
+
+  .uno {
+    order: 2;
+    margin-top: 30px;
+   }
+   
+   .dos {
+    order: 1;
+   }
 }
+
+@media only screen and (max-width: 912px){
+  .noSizeWork {
+    width: 100% !important;
+  }
+}
+

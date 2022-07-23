@@ -13,7 +13,7 @@ class Staff extends React.Component {
                     <div className="container-fluid p-0">
                         <div className="row ">
                             <div className="col-lg-6 col-md-5 ">
-                                <div className="image noBagroundPositionMobile"></div>
+                                <div className="image noBagroundPositionMobile noSizeMobile"></div>
                             </div>
                             
                             <div className="col-lg-6 col-md-7">

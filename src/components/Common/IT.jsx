@@ -13,8 +13,8 @@ class IT extends React.Component {
                                 </video>
                             </div>
                             
-                            <div className="col-lg-6 col-md-7">
-                                <div className="about-strategy ptb-80">
+                            <div className="col-lg-6 col-md-7 noSizeWork">
+                                <div className="about-strategy">
                                     <div className="section-title">
                                         <h2><span>Soporte T.I</span></h2>
                                         <p>Te apoyamos en la administración de tu infraestructura de tecnología. Contarás con un departamento de informática independiente de tu estructura o tamaño. Apoyado con personal técnico capacitado y comprometido para que todo funcione correctamente.
