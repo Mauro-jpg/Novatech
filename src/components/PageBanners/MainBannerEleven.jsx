@@ -23,8 +23,10 @@ class MainBanner extends React.Component {
                                                 eraseDelay={1100}
                                             />
                                         </h1>
-                                        <p>Desde 2006, Dimensionamos, Implementamos y Administramos las soluciones tecnológicas que tu empresa necesita.
-Somos tu socio tecnológico, basamos nuestros servicios en la confianza, la buena comunicación y la agilidad para brindarte soluciones flexibles, seguras y de alto impacto que te ayuden a lograr tus objetivos.</p>
+                                        <p>Desde 2016 nos enfocamos en el dimensionamiento,
+implementación y administración de las soluciones tecnológicas que su empresa necesita.
+<br></br>
+Nuestros pilares son la confianza, la buena comunicación y la agilidad para brindar soluciones flexibles, seguras y de alto impacto que le ayuden a lograr sus objetivos, convirtiéndonos en un socio tecnológico clave para la organización.</p>
                                     </div>
                                 </div>
                             </div>

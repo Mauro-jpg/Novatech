@@ -12,7 +12,7 @@ class Footer extends React.Component {
                             <ul>
                                 <li><a href="https://www.facebook.com/novatechuy" className="fa fa-facebook" target="_blank" rel="noopener noreferrer">.</a></li>
                                 <li><a href="https://www.linkedin.com/company/novatech-uruguay/" className="fa fa-linkedin" target="_blank" rel="noopener noreferrer">.</a></li>
-                                <li><Link to="https://www.instagram.com/novatech.uy/" className="fa fa-instagram" target="_blank">.</Link></li>
+                                <li><a href="https://www.instagram.com/novatech.uy/" className="fa fa-instagram" target="_blank" rel="noopener noreferrer">.</a></li>
                             </ul>
                             <p>Copyright <i className="fa fa-copyright"></i> 2022 All Rights Reserved.</p>
                         </div>

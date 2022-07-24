@@ -1,6 +1,6 @@
 import React from 'react';
 import MainBanner from '../PageBanners/MainBannerEleven';
-import IT from '../Common/IT';
+import TI from '../Common/TI';
 import Develop from '../Common/Develop';
 import Services from '../Common/Services';
 import Staff from '../Common/Work';
@@ -25,7 +25,7 @@ class HomeEleven extends React.Component {
                 <Services />
 
                 {/* IT Area */}
-                <IT />
+                <TI />
 
                 {/* Contact Area */}
                 <Contact />
