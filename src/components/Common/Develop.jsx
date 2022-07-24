@@ -8,12 +8,15 @@ class Develop extends React.Component {
                                             <div className="col-lg-6 col-md-6 fullwMobile">
                                                 <div className="section-title">
                                                 <h2><span>Desarrollo de Software</span></h2>
-                                                    <p>Desarrollamos soluciones en múltiples plataformas para distintos mercados y destinos.
-
-Tomemos un café y hablemos sobre tus necesidades puntuales y desarrollaremos una solución acorde, ágil, innovadora y que ayude a la mejora y automatización en tus procesos.
-
-Staff Augmentation Contamos con recursos altamente calificados para sumar a tu equipo o proyectos. Desarrolladores, Project Manager.</p>
-                                                                                                    
+                                                    <p>La solución a medida, ágil y eficiente.
+                                                    Desarrollamos soluciones en múltiples plataformas para distintos mercados y destinos
+                                                    <br></br><br></br>
+                                                    Contamos con recursos altamente calificados
+                                                    <br></br><br></br>
+                                                    Nuestra prioridad es brindar una solución a medida de las necesidades detectadas, sin incurrir en tiempos y costos innecesarios, llevando adelante una metodología de trabajo eficiente y conveniente.
+                                                    <br></br>
+                                                    Tomemos un café y conversemos sobre las necesidades existentes en la organización y nosotros nos encargaremos de desarrollar una solución acorde, ágil e innovadora, que ayude a la mejora y automatización de los procesos.
+                                                    </p>                                                                                                    
                                                 </div>
                                             </div>
                                             
