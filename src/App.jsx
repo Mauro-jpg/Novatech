@@ -10,8 +10,6 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navigation from './components/Navigation/Navigation';
 import Preloader from './components/Common/Preloader';
 import HomeEleven from './components/Pages/HomeEleven';
-import Blog from './components/Pages/Blog';
-import BlogDetails from './components/Pages/BlogDetails';
 
 class App extends React.Component {
 
@@ -45,8 +43,6 @@ class App extends React.Component {
                     {this.state.loading ? <Preloader /> : ''}
                     <Navigation />
                     <Route path="/" exact component={HomeEleven} />
-                    <Route path="/blog" exact component={Blog} />
-                    <Route path="/blog-details" exact component={BlogDetails} />
                 </>
             </Router>
         );

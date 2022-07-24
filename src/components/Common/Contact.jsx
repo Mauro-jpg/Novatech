@@ -1,6 +1,7 @@
 import React from 'react';
 import 'isomorphic-fetch';
- 
+const { sendMail } = require('../../sendMail');
+
 class Contact extends React.Component {
     state = {
         submitting: false,
@@ -66,23 +67,7 @@ class Contact extends React.Component {
     }
 
     successMessage = () => {
-        if (this.state.submitted){
-            return (
-                <div 
-                    className="alert alert-success alert-dismissible fade show" 
-                    style={{ marginTop: '20px', marginBottom: '0' }}
-                >
-                    <strong>Thank you!</strong> Your message is send to the owner.
-                    <button 
-                        type="button" 
-                        className="btn-close"
-                        onClick={this.onHideSuccess}
-                    >
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-            );
-        }
+        console.log(this.state);
     }
 
     render(){

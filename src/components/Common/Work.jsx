@@ -21,14 +21,14 @@ class Staff extends React.Component {
                                     <div className="section-title">
                                         <h2><span>Staff Augmentation</span></h2>
                                         <p>Proveemos los recursos necesarios en el momento justo
-<br></br>
-<br></br>
-Este servicio permite subcontratar personal calificado, cubriendo todas las necesidades de conocimientos y habilidades que el proyecto requiere.
-<br></br>
-<br></br>
-Es necesario darle un impulso al proyecto?<br></br>
-Se necesita poner al día los objetivos de desarrollo?<br></br>
-El equipo interno no cuenta con disponibilidad para atender otros proyectos?<br/><br/>
+                                        <br></br>
+                                        <br></br>
+                                        Este servicio permite subcontratar personal calificado, cubriendo todas las necesidades de conocimientos y habilidades que el proyecto requiere.
+                                        <br></br>
+                                        <br></br>
+                                        Es necesario darle un impulso al proyecto?<br></br>
+                                        Se necesita poner al día los objetivos de desarrollo?<br></br>
+                                        El equipo interno no cuenta con disponibilidad para atender otros proyectos?<br/><br/>
                                         <p style={{color:"#298ACB"}}><b>Novatech es la extensión que tu equipo necesita.</b></p></p>
                                     </div>                                    
                                 </div>
