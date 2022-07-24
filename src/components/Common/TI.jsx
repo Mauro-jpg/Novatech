@@ -8,7 +8,7 @@ class IT extends React.Component {
                     <div className="container-fluid p-0">
                         <div className="row ">
                             <div className="col-lg-6 col-md-5 col50">
-                                <video autoPlay muted loop>         
+                                <video autoPlay muted loop className='colorNaranja'>         
                                     <source src="/it.mp4" type="video/mp4"/>       
                                 </video>
                             </div>

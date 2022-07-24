@@ -110,7 +110,7 @@ class Contact extends React.Component {
                                     </li>
                                     <li>
                                         <i className="fa fa-envelope"></i> 
-                                        <a href="mailto:info@novatech.com.uy">info@novatech.com.uy</a>
+                                        <a href="mailto:niev.mauro@gmail.com">info@novatech.com.uy</a>
                                     </li>
                                     <li>
                                         <i className="fa fa-phone"></i> 
