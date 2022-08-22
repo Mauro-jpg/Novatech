@@ -996,6 +996,16 @@ Strategy Area CSS
 
 }
 
+.TI .image {
+  background-image: url("../images/unnamed.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-clip: border-box;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #86bde1;
+
+}
 
 .about-strategy {
   padding-left: 25px;
