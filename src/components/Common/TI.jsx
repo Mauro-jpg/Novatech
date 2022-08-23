@@ -15,16 +15,11 @@ class IT extends React.Component {
                                 <div className="about-strategy">
                                     <div className="section-title">
                                         <h2><span>Soporte T.I.</span></h2>
-                                        <p>Concéntrate en el negocio, nosotros en la tecnología
-                                        <br></br>
-                                        <br></br>
+                                        <p>
                                         Nos encargamos de administrar la infraestructura tecnológica de la organización.
                                         <br></br>
                                         <br></br>
                                         Ponemos a disposición personal técnico capacitado y comprometido para que todo funcione correctamente, creando un departamento de informática independiente de la estructura o tamaño.
-                                        <br></br>
-                                        <br></br>
-                                        Ofrecemos asesoría tecnológica para asegurar que la empresa este actualizada y aplicando las mejores herramientas y soluciones para el negocio.
                                         <br></br>
                                         <br></br>
                                         Contamos con amplia experiencia en Administración de Centros de cómputos, Administración de Comunicaciones, Seguridad, Servidores, telefonía IP y Servicio a Usuarios.</p>

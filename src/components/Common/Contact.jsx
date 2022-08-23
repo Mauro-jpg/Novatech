@@ -77,17 +77,20 @@ class Contact extends React.Component {
                     <div className="section-title">
                         <h2><span>Contactanos</span></h2>
                     </div>
-                    
-                    <div className="row">
-                        <div className="col-lg-6 col-md-12">
-                      
-                            <iframe 
-                                title="Google Map" 
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.096315031995!2d-56.2029501850252!3d-34.90403238095641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f802a2b33be7d%3A0xe259f09f60608e6a!2s25%20de%20Mayo%20747%2C%2011000%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses-419!2suy!4v1656889314288!5m2!1ses-419!2suy" 
-                                width="100%" 
-                                height="392" 
-                                loading="lazy"
-                            ></iframe>
+                    <div style={{"display": "inline-flex", width: "100%"}}>
+                        <div style={{width:"50%"}}>
+                            <div className="col-md-12">
+
+                                <iframe 
+                                    title="Google Map" 
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.096315031995!2d-56.2029501850252!3d-34.90403238095641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f802a2b33be7d%3A0xe259f09f60608e6a!2s25%20de%20Mayo%20747%2C%2011000%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses-419!2suy!4v1656889314288!5m2!1ses-419!2suy" 
+                                    width="100%" 
+                                    height="392" 
+                                    loading="lazy"
+                                ></iframe>
+                            </div>
+                        </div>
+                        <div style={{width:"45%", "marginLeft" : "5%"}}>
                             <div className="contact-info">
                                 <ul>
                                     <li>
@@ -104,7 +107,6 @@ class Contact extends React.Component {
                                 </ul>
                             </div>
                         </div>
-                    
                     </div>
                 </div>
             </section>
